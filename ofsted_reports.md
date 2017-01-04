@@ -8,4 +8,4 @@ A typical provider URL looks like this: https://reports.ofsted.gov.uk/inspection
 
 And a typical report URL looks like this: https://reports.ofsted.gov.uk/provider/files/2631211/urn/103980.pdf
 
-Some reports are included in this repository to demonstrate PDF scraping techniques.
+Some reports are included in this repository to demonstrate PDF scraping techniques for educational purposes.
