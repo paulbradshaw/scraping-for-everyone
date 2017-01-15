@@ -90,6 +90,27 @@ for el in list(page)[:100]:
         print el.attrib, gettext_with_bi_tags(el).encode('ascii', 'ignore')
 ```
 
+## Saving some data
+
+Now let's add some code to save the data. First, we need a variable which will serve as an *index* for our entries. A simple way to do this is to create a variable set at zero and then add 1 to it every time the loop runs. That's the first line below:
+
+
+```python
+ID = 0
+page0 = pages[0]
+for el in list(page)[:100]:
+    if el.tag == "text":
+        print el.attrib, gettext_with_bi_tags(el).encode('ascii', 'ignore')
+        record = {}
+        record["text"] = gettext_with_bi_tags(el).encode('ascii', 'ignore')
+        ID = ID+1
+        record["ID"] = ID
+        scraperwiki.sqlite.save(["ID"],record)
+        print record
+```
+
+...after that line are the ones we already had. Then we create an empty dictionary variable with `record = {}` and store data in that in the lines that follow, before saving and printing it.
+
 ## Notes
 
 \* *In QuickCode however, this generates an error: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`. You'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)*
