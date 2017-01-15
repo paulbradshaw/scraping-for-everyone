@@ -24,7 +24,7 @@ print "The first 5000 characters are: ", xmldata[:5000]
 This code runs fine. So let's move on and add and then run the next section:
 * Convert the `xmldata` variable to an lxml object
 * Use the `list` method ([explained here](https://www.tutorialspoint.com/python/list_list.htm)) to turn that lxml obect into a list
-* Print the page number attributes from that list
+* Print the page number attributes from that list (each object in the list is called 'page' - this is then used again later)
 
 ```python
 root = lxml.etree.fromstring(xmldata)
@@ -35,7 +35,7 @@ print "The pages are numbered:", [ page.attrib.get("number")  for page in pages 
 
 This also runs fine. Next, then:
 
-* Loop through the first 100 items in a list and print the attribute of each element if it has the tag 'text'
+* Loop through the first 100 items in a list and print the attribute of each 'page' object element if it has the tag 'text'
 
 ```python
 for el in list(page)[:100]:
@@ -44,3 +44,52 @@ for el in list(page)[:100]:
 ```
 
 This works.
+
+## Now the problematic bit
+
+The next section of code defines a new function, and then the final part *runs* that function. Here's the first part:
+
+```python
+# this function has to work recursively because we might have "<b>Part1 <i>part 2</i></b>"
+def gettext_with_bi_tags(el):
+    res = [ ]
+    if el.text:
+        res.append(el.text)
+    for lel in el:
+        res.append("<%s>" % lel.tag)
+        res.append(gettext_with_bi_tags(lel))
+        res.append("</%s>" % lel.tag)
+        if el.tail:
+            res.append(el.tail)
+    return "".join(res)
+```
+
+And here's the second part:
+
+```python
+# print the first hundred text elements from the first page
+page0 = pages[0]
+for el in list(page)[:100]:
+    if el.tag == "text":
+        print el.attrib, gettext_with_bi_tags(el)
+```
+
+This generates an error in QuickCode: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`.
+
+Or (in Morph.io): `UnicodeEncodeError: 'ascii' codec can't encode character u'\u2013' in position 7: ordinal not in range(128)`
+
+As always, let's Google for some solutions.
+
+For the QuickCode error you'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)
+
+For the Morph.io error there's [a thread on Stack Overflow here](https://stackoverflow.com/questions/5141559/unicodeencodeerror-ascii-codec-cant-encode-character-u-xef-in-position-0)
+
+And the specific code suggested is this: `.encode('ascii', 'ignore')`
+
+Here's that piece of code added to our print command 
+
+```python
+for el in list(page)[:100]:
+    if el.tag == "text":
+        print el.attrib, gettext_with_bi_tags(el).encode('ascii', 'ignore')
+```
