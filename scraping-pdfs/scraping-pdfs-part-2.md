@@ -21,7 +21,7 @@ print "After converting to xml it has %d bytes" % len(xmldata)
 print "The first 5000 characters are: ", xmldata[:5000]
 ```
 
-This code runs fine. So let's move on and add and then run the next section:
+This code runs fine on Morph.io\*. So let's move on and add and then run the next section:
 * Convert the `xmldata` variable to an lxml object
 * Use the `list` method ([explained here](https://www.tutorialspoint.com/python/list_list.htm)) to turn that lxml obect into a list
 * Print the page number attributes from that list (each object in the list is called 'page' - this is then used again later)
@@ -74,22 +74,21 @@ for el in list(page)[:100]:
         print el.attrib, gettext_with_bi_tags(el)
 ```
 
-This generates an error in QuickCode: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`.
-
-Or (in Morph.io): `UnicodeEncodeError: 'ascii' codec can't encode character u'\u2013' in position 7: ordinal not in range(128)`
+The error that we get (in Morph.io at least) is: `UnicodeEncodeError: 'ascii' codec can't encode character u'\u2013' in position 7: ordinal not in range(128)`
 
 As always, let's Google for some solutions.
-
-For the QuickCode error you'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)
 
 For the Morph.io error there's [a thread on Stack Overflow here](https://stackoverflow.com/questions/5141559/unicodeencodeerror-ascii-codec-cant-encode-character-u-xef-in-position-0)
 
 And the specific code suggested is this: `.encode('ascii', 'ignore')`
 
-Here's that piece of code added to our print command 
+Here's that piece of code added to our print command:
 
 ```python
 for el in list(page)[:100]:
     if el.tag == "text":
         print el.attrib, gettext_with_bi_tags(el).encode('ascii', 'ignore')
 ```
+
+
+* In QuickCode however, this generates an error: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`. You'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)
