@@ -111,6 +111,10 @@ for el in list(page)[:100]:
 
 ...after that line are the ones we already had. Then we create an empty dictionary variable with `record = {}` and store data in that in the lines that follow, before saving and printing it.
 
+## Checking the data
+
+We can see 28 rows have been stored, some of them empty. Comparing those to the original document, we might notice that all of the data comes from the *second* page of the document. 
+
 ## Notes
 
 \* *In QuickCode however, this generates an error: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`. You'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)*
