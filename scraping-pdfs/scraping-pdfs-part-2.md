@@ -115,6 +115,16 @@ for el in list(page)[:100]:
 
 We can see 28 rows have been stored, some of them empty. Comparing those to the original document, we might notice that all of the data comes from the *second* page of the document. 
 
+So let's change one of the lines slightly to specify that we want to grab the first page:
+
+```python
+page0 = pages[0]
+# In the original code, this said (page) but we've now changed it to (page0) which, in the line above, has been set to the first item in the pages variable
+for el in list(page0)[:100]:
+```
+
+When we run the code this time, we now get the results from the first page. Curiously we also get the second page now. 
+
 ## Notes
 
 \* *In QuickCode however, this generates an error: `ValueError`: specifically something about `Unicode strings with encoding declaration are not supported`. You'll [find some guidance about this error on the lxml documentation](http://lxml.de/parsing.html)*
