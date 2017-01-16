@@ -2,7 +2,9 @@
 
 ## Scraper 22: Scraping PDFs part 1
 
-The [code for the scraper discussed in this chapter can be found here](https://github.com/paulbradshaw/scraping-pdfs/blob/master/python_pdftoxml_scraper.py). Please note that there is no longer any PDF at the URL used by the scraper, so the scraper does not work.
+The [code for the first scraper discussed in this chapter can be found here](https://github.com/paulbradshaw/scraping-pdfs/blob/master/python_pdftoxml_scraper.py). Please note that there is no longer any PDF at the URL used by the scraper, so the scraper does not work.
+
+The [code for the new, working version of the scraper can be found here](https://github.com/paulbradshaw/Lords_Committee_Minutes/blob/master/scraper.py). A copy of [the PDF scraped by that code can be found in this repo here](https://github.com/paulbradshaw/scraping-for-everyone/blob/master/scraping-pdfs/HCMinutes-1-290616.pdf).
 
 ## Scraper 23: Scraping PDFs part 2
 The [code for the scraper discussed in this chapter can be found here](https://github.com/paulbradshaw/speed_cameras/blob/master/scraper.py).
