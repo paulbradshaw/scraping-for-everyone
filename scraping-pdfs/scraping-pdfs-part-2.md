@@ -1,5 +1,15 @@
 ## Scraping PDFs part 2
 
+To identify the code surrounding the parts of the PDF we want to grab:
+
+```xml
+<text top="292" left="106" width="154" height="21" font="2">L. Campbell-Savours </text>
+ <text top="313" left="106" width="151" height="21" font="2">L. Cope of Berkeley </text>
+ <text top="334" left="106" width="172" height="21" font="2">B. D’Souza (Chairman) </text>
+ ```
+
+## Troubleshooting
+
 We can start exploring and trouble-shooting our copied code by running it bit by bit. Start, for example, with the first part of the code which:
 
 * Imports the libraries, 
