@@ -5,6 +5,7 @@
 The [code for the scraper discussed in this chapter can be found here](https://github.com/paulbradshaw/scraping-pdfs/blob/master/python_pdftoxml_scraper.py). Please note that there is no longer any PDF at the URL used by the scraper, so the scraper does not work.
 
 ## Scraper 23: Scraping PDFs part 2
+The [code for the scraper discussed in this chapter can be found here](https://github.com/paulbradshaw/speed_cameras/blob/master/scraper.py).
 
 You can find [a copy of the PDF used in this chapter in this repo here](https://github.com/paulbradshaw/scraping-pdfs/blob/master/03092012_forwebsite.pdf)
 
