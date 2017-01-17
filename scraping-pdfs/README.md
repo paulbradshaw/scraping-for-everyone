@@ -13,7 +13,7 @@ You can find [a copy of the PDF used in this chapter in this repo here](https://
 
 ## Scraper 24: Scraping multiple PDFs
 
-You can [find the scraper for this chapter on Morph.io here](https://morph.io/paulbradshaw/MetPolice_knifecrime)
+You can [find the scraper for this chapter on Morph.io here](https://morph.io/paulbradshaw/MetPolice_knifecrime), and [the Python code here](https://github.com/paulbradshaw/MetPolice_knifecrime/blob/master/scraper.py)
 
 You can find copies of 3 PDFs (in case the website being scraped changes) within this repo, at:
 * [https://github.com/paulbradshaw/scraping-pdfs/blob/master/monthly_knife_crime_summary_june2015.pdf](https://github.com/paulbradshaw/scraping-pdfs/blob/master/monthly_knife_crime_summary_june2015.pdf)
