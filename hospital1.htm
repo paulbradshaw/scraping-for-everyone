@@ -1,0 +1,826 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Hospital 1</title>
+
+
+</head>
+<body>
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+                <div vocab="http://schema.org/" typeof="Organization">
+					          <h1 property="name" id="org-title" class="hospital notranslate">Leeds General Infirmary</h1>
+                    <p>
+                      <span class="tel-box">
+                        <span class="tel-no" property="telephone">0113 243 2799</span>
+
+                      </span>
+                      <span typeof="PostalAddress">
+                        <span property="streetAddress">Great George Street</span>
+                        , <span property="addressLocality">Leeds</span>, <span property="addressRegion">West Yorkshire</span>, <span property="postalCode">LS1 3EX</span>
+                      </span>
+                      <br />
+                      <strong><a href="http://www.leedsth.nhs.uk" property="url">http://www.leedsth.nhs.uk</a></strong>
+                    </p>
+
+
+                    <span typeof="Place" class="hidden">
+                      <span typeof="GeoCoordinates" property="geo">
+                        <meta property="latitude" content = "53.80146" />
+                        <meta property="longitude" content = "-1.552119" />
+                      </span>
+                    </span>
+
+                </div>
+
+      </div>
+    </div>
+
+</div>
+
+
+
+<div class="leave-review" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+    <p id="ctl00_ctl00_ctl00_PlaceHolderMain_profileSummaryControl_starRecommendationControl_starRating" class="starrating">
+
+        <span property="v:itemreviewed" class="hidden">Leeds General Infirmary</span>
+        <img src="/img/find-services/four-half-star.gif" id="ctl00_ctl00_ctl00_PlaceHolderMain_profileSummaryControl_starRecommendationControl_starRatingImage" height="27" width="108" alt="4.5 out of 5 stars" title="Extremely likely to recommend" />
+        <span class="hidden" property ="v:rating">
+           4.5
+        </span>
+        <span class="hidden"> out of 5</span>
+        </p>
+    <p class="leavereviewlink">
+    <a id="ctl00_ctl00_ctl00_PlaceHolderMain_profileSummaryControl_starRecommendationControl_linkLeaveReview" class="review-link" href="/Services/hospitals/LeaveReview/DefaultView.aspx?id=2205">Leave review</a>
+    </p>
+    <p>Based on <strong property='v:count'>137</strong> ratings for this hospital</p>
+</div>
+    </div>
+</div>
+    <div class="tabs-nav">
+
+  <span class="crnr tl"></span><ul id="ctl00_ctl00_ctl00_PlaceHolderMain_navigationTabsContent_navigationMenu_TabStrip" class="tabs clear">
+	<li class="active"><span class="crnr tl"></span><span class="active-text">Overview</span><span class="crnr tr"></span></li><li><span><a href="/Services/hospitals/Services/DefaultView.aspx?id=2205">Departments and services</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li><span><a href="/Services/hospitals/Facilities/DefaultView.aspx?id=2205">Facilities</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li><span><a href="/Services/hospitals/MapsAndDirections/DefaultView.aspx?id=2205">Contact details, map and directions</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li class="review-ratings-tabs"><span><a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205">Reviews and ratings</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li class="review-ratings-tabs"><span><a href="/Services/hospitals/LeaveReview/DefaultView.aspx?id=2205">Leave review</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li>
+</ul><span class="crnr tr"></span>
+
+
+
+    </div>
+    <div class="col five border">
+
+
+
+
+
+
+        <div class="pad clear">
+            <div class="col five-sm clear">
+
+
+
+                <h2 id="section-top">Overview</h2>
+            </div>
+            <div class="col four-sm">
+
+
+
+            </div>
+            <div id="ctl00_ctl00_ctl00_PlaceHolderMain_contentColumn1" class="col three-sm">
+
+
+
+
+
+
+<div class="panel panel-nonedit module  ">
+
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+        <h3><a href="/Services/hospitals/MapsAndDirections/DefaultView.aspx?id=2205">Contact details, map and directions</a></h3>
+
+					<div class='panel  box contact-details'>
+						<div class='panel-content'>
+							<div class='pad clear'>
+
+
+	<!--[if lte IE 9]>
+        <div class="panel-assistance-mesg panel-error clear">
+            <p>Please note that certain functionality will not work in older versions of Internet Explorer. Try turning on compatibility view or use version 10 or later, or another browser</p>
+        </div>
+    <![endif]-->
+    <div class="contact-header">
+        <div class="notranslate">
+            <h3>Leeds General Infirmary</h3>
+            <p><strong>Tel: </strong>0113 243 2799</p>
+            <p><strong>Address:</strong> Great George Street, Leeds, West Yorkshire, LS1 3EX</p>
+
+            <p><strong>Website:</strong> <a href="http://www.leedsth.nhs.uk">http://www.leedsth.nhs.uk</a></p>
+
+        </div>
+    </div>
+
+
+    <div id="myMap">
+        <noscript>
+            <div class="contact-header">
+                <h3>Map</h3>
+                <p>Javascript is required to view the map.</p>
+            </div>
+        </noscript>
+    </div>
+    <script type="text/javascript" src="https://www.bing.com/api/maps/mapcontrol?branch=release&callback=NHSChoicesMap" async defer></script>
+    <script type="text/javascript" src="/includes/nhschoices.map.directions.js"></script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        mapStyle = document.getElementById("myMap").style;
+        mapStyle.width = '557px';
+        mapStyle.height = '312px';
+        orgName = "Leeds General Infirmary";
+        mapID = "myMap";
+        //]]>
+    </script>
+    <script type="text/javascript" src="/includes/nhschoices.map.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+		function loadMyMap() {
+                                mapID = "myMap";
+
+                                var nhsChoicesMap = new NHSChoicesMap();
+                                var mapData = {
+                                    mapDivID: mapID,
+                                    mapZoom: 16,
+                                    mapType: "roadmap",
+                                    bingMapsAPIKey: "Ass2GbSEC2-1F8Pif1hlYrwuL9TXtmwxl3B1ALgaJhjuLZez_54yQTy-7Bd7QQee",
+                                    showInfoWindow: false,
+
+										orgData: [{"title": "Leeds General Infirmary", "lat": 53.80146, "lng": -1.552119, "description": "<p>Leeds General Infirmary</p>" }]
+
+                                };
+                                nhsChoicesMap.renderMap(mapData);
+
+                                // check if org has a postcode, else pass org name. used to pass to transport direct
+
+        orgPostcode = "LS1 3EX";
+
+        };
+        window.onload = loadMyMap;
+        //]]>
+    </script>
+
+
+    <div class="get-directions">
+        <h3 class="get-directions-header">Get directions to Leeds General Infirmary</h3>
+        <p class="transport-direct">You can plan your journey with <a href="http://www.transportdirect.info/transportdirect/en/journeyplanning/jplandingpage.aspx?oo=p&amp;et=jp&amp;m=m&amp;do=p&amp;p=1&amp;id=http://www.nhs.uk/&amp;d=LS1 3EX">Transport direct</a>.</p>
+        <div id="directionspanel"></div>
+    </div>
+
+
+</div>
+						</div>
+					</div>
+
+
+      </div>
+    </div>
+
+</div>
+
+
+  <div class="box-list hospital-overview clear">
+
+					<div class='panel  box'>
+						<div class='panel-content'>
+							<div class='pad clear'>
+    <h3><a href="/Services/hospitals/Services/DefaultView.aspx?id=2205">Departments and services</a></h3>
+    <p></p>
+    <ul><li><a href='/Services/Hospitals/Services/Service/DefaultView.aspx?id=288282'>A&E onsite</a></li><li><a href='/Services/Hospitals/Services/Service/DefaultView.aspx?id=208626'>Maternity services</a></li></ul>
+    <p>To search for a specific treatment, use our <a href="/Services/hospitals/Services/DefaultView.aspx?id=2205">full list of departments</a></p>
+
+
+</div>
+						</div>
+					</div>
+
+
+  </div>
+
+
+            </div>
+            <div id="ctl00_ctl00_ctl00_PlaceHolderMain_contentColumn2" class="col two-sm last">
+
+
+
+
+<div class="panel panel-nonedit module  ">
+
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+    <h3>Quality of service at Leeds General Infirmary</h3>
+    <p>This hospital is managed by Leeds Teaching Hospitals NHS Trust</p>
+
+        <div class="simple-scorecard">
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Care Quality Commission inspection ratings</h4>
+        </div>
+        <div class="col one-sm last">
+            <img alt="" src="/img/indicators/icon-cqc-requiresimp.png"  height="45" width="52" /><p>Requires Improvement<br /><a href="http://www.cqc.org.uk/location/RR801">Visit CQC profile</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of registered nurse day hours filled as planned (Hospital)</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>86% of planned level - This shows how well the ward's staffing requirements are being met</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of Unregistered care staff day hours filled as planned (Hospital)</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>98% of planned level - This shows how well the ward's staffing requirements are being met</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of registered nurse night hours filled as planned (Hospital)</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>85% of planned level - This shows how well the ward's staffing requirements are being met</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of Unregistered care staff night hours filled as planned (Hospital)</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>104% of planned level - This shows how well the ward's staffing requirements are being met</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of patients who have been hurt in a fall in the last 3 days</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>0.41% - Based on a monthly spot check survey of patients on the ward</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>% of patients being treated for a bed sore (pressure ulcer)</h4>
+        </div>
+        <div class="col one-sm last">
+            <p>4.53% - Based on a monthly spot check survey of patients on the ward</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family Test: Inpatient</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><span class="indicator-value">94%</span><span class="indicator-text">Patients recommend this hospital. 1388 responses</span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family Test score: A&E</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><span class="indicator-value">82%</span><span class="indicator-text">Patients recommend this hospital. 893 responses</span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family Test score: Maternity</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><a onclick="dcsMultiTrack('DCSext.MaternityFFT','Click_to_maternity_FFT','WT.dl','121')" href="/Services/hospitals/Services/Service/DefaultView.aspx?id=208626">View maternity scores</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family Test score: Staff - Care</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><span class="indicator-value">87%</span><span class="indicator-text">staff recommend this hospital for care. 1976 responses. 15853 staff work at this trust.</span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family Test score: Staff - Work</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><span class="indicator-value">73%</span><span class="indicator-text">staff recommend this hospital as a place to work. 1976 responses. 15853 staff work at this trust.</span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="service-feedback clear">
+        <div class="col one-sm">
+            <h4>Friends and Family test score: Outpatients</h4>
+        </div>
+        <div class="col one-sm last">
+            <p><span class="indicator-value">94%</span><span class="indicator-text">Patients recommend this hospital. 1124 responses.</span></p>
+        </div>
+    </div>
+
+
+
+
+        </div>
+
+
+        <div class="link-list">
+          <p><a href="/Scorecard/Pages/HospitalFacts.aspx">More information about this data
+</a></p>
+        </div>
+
+
+      <p>Some services at this hospital are provided by other trusts. See the full list of <a href="/Services/hospitals/Services/DefaultView.aspx?id=2205" title="list of departments">departments</a> for more information.</p>
+
+    <a id="ctl00_ctl00_ctl00_PlaceHolderMain_column2Content_column2Content_ScorecardQosListView_scorecardReadOnlyModule_compareLink" href="/Service-Search/Disambiguation/Location?ServiceName=&amp;locationName=LS1 3EX"></a>
+
+
+      </div>
+    </div>
+
+</div>
+
+
+<div class="panel panel-nonedit module  ">
+
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+
+
+
+<div class="rc-comments">
+    <h3>Latest reviews of this  hospital  </h3>
+			<div class="rc-comments-outer clear">
+			<div class="rc-comments-container clear">
+								<div class="user-recommendation bdr-bot">
+				<h4 class="five-star-icon">
+				<a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205&amp;SortType=1#cmnt1548341">
+								<span class="hidden">Rating 5 out of 5 stars - </span>
+								Wrist operation</a></h4>
+		           <p class="reviewtext">Had a wrist reset in June 2016 The surgeon is a genius and very caring as all the staff on ward 46, would also like to mention the physio...</p>
+					<p class="rating-details">27 January 2017</p>
+				</div>
+								<div class="user-recommendation bdr-bot">
+				<h4 class="five-star-icon">
+				<a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205&amp;SortType=1#cmnt1542584">
+								<span class="hidden">Rating 5 out of 5 stars - </span>
+								X Ray Dept Jubilee Wing LGI</a></h4>
+		           <p class="reviewtext">Sent for diagnostic X Ray by my GP that day. Receptionist had my details on their monitor, very efficient.. Only waited just a few minute...</p>
+					<p class="rating-details">18 January 2017</p>
+				</div>
+								<div class="user-recommendation bdr-bot">
+				<h4 class="five-star-icon">
+				<a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205&amp;SortType=1#cmnt1542494">
+								<span class="hidden">Rating 5 out of 5 stars - </span>
+								Excellent care and support at the LGI</a></h4>
+		           <p class="reviewtext">I wanted to say a big thank you to the team at the LGI maternity unit after I gave birth to my daughter on the 18th October 2016. I had b...</p>
+					<p class="rating-details">18 January 2017</p>
+				</div>
+								<div class="user-recommendation bdr-bot">
+				<h4 class="five-star-icon">
+				<a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205&amp;SortType=1#cmnt1537824">
+								<span class="hidden">Rating 5 out of 5 stars - </span>
+								pre op. section</a></h4>
+		           <p class="reviewtext">Visited the pre op. section @ Brotherton wing of LGI on 6th Jan 2017. Although between various sessions I had to wait, the attitude, frie...</p>
+					<p class="rating-details">12 January 2017</p>
+				</div>
+								<div class="user-recommendation bdr-bot">
+				<h4 class="one-star-icon">
+				<a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205&amp;SortType=1#cmnt1537609">
+								<span class="hidden">Rating 1 out of 5 stars - </span>
+								Waiting list for tonsilectomy</a></h4>
+		           <p class="reviewtext">I left a review back in october 2016 about my daughter been on the list for a tonsilectomy. She has been on the list since june 2016 and ...</p>
+					<p class="rating-details">11 January 2017</p>
+				</div>
+									<div class="rc-comments-links">
+						<p class="left-link"><a href="/Services/hospitals/LeaveReview/DefaultView.aspx?id=2205">Leave your own review</a></p>
+						<p class="right-link"><a href="/Services/hospitals/ReviewsAndRatings/DefaultView.aspx?id=2205">Read all 367 reviews</a></p>
+					</div>
+			</div>
+
+		</div>
+	</div>
+
+      </div>
+    </div>
+
+</div>
+
+
+<div class="panel panel-nonedit module  ">
+
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+    <h3>Nearby Hospitals</h3>
+
+    <a href="/Service-Search/Disambiguation/Location?ServiceName=Hospital&locationName=LS1 3EX">
+                   Find nearby Hospitals</a>
+
+
+      </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="col tertiary-content">
+
+
+
+            </div>
+            <div class="col three-sm">
+
+
+<div class="module" id="module2a66aa74bf0f4b9b8601473ae8e6c731" >
+
+<div class="panel panel-nonedit module  panel-profile-site">
+
+
+    <div class="panel-content">
+      <div class="pad clear">
+
+
+
+      </div>
+    </div>
+
+</div>
+
+      <div class="last-updated">
+          <p id="ctl00_ctl00_ctl00_PlaceHolderMain_informationSuppliedByControl_lastUpdatedDate">Last updated on 09 May 2014.</p>
+          <p>Information supplied by <a href="/Services/Trusts/Overview/DefaultView.aspx?id=1373">Leeds Teaching Hospitals NHS Trust</a></p>
+      </div>
+</div>
+
+
+            </div>
+            <div class="col two-sm serv-info-qual-wrap last">
+
+
+<p class="serv-info-qual"><a href="/aboutNHSChoices/Pages/InformationQualityForm.aspx?PageTitle=Overview+-+Leeds+General+Infirmary+-+NHS+Choices&amp;Address=Great+George+Street%2c%2c%2cLeeds%2cWest+Yorkshire%2cLS1+3EX&amp;Name=Leeds+General+Infirmary">Report an issue with the information on this page</a></p>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <!-- Footer starts here.... -->
+
+    <div class="footer clear">
+
+      <div class="footer-tab-wrap">
+        <ul class="footer-tabs clear">
+          <li><a href="#footer-tab1"><span class="crnr tl"></span><span class="footer-title"><div>NHS Choices information</div></span><span class="crnr tr"></span></a></li>
+          <li><a href="#footer-tab2"><span class="crnr tl"></span><span class="footer-title"><div>Choices e-newsletters</div></span><span class="crnr tr"></span></a></li>
+          <li><a href="#footer-tab3"><span class="crnr tl"></span><span class="footer-title"><div>Your pages</div></span><span class="crnr tr"></span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content-wrap">
+        <div class="footer-content">
+          <div id="footer-tab1" class="footer-tab1 footer-tab-content clear">
+              <div id="ctl00_ctl00_ctl00_footer_SitePolicies" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>Site policies</h2>
+<ul class="info">
+<li><a href="/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/termsandconditions.aspx"
+    accesskey ="8"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/termsandconditions.aspx','WT.dl','121')" onkeypress="this.onclick()">Terms and conditions</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/Editorialpolicy.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/Editorialpolicy.aspx','WT.dl','121')" onkeypress="this.onclick()">Editorial policy</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/commentspolicy.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/commentspolicy.aspx','WT.dl','121')" onkeypress="this.onclick()">Comments policy</a></li>
+<li><a href="/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/professionals/syndication/Pages/Webservices.aspx','WT.dl','121')" onkeypress="this.onclick()">Syndication</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/Privacypolicy.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/Privacypolicy.aspx','WT.dl','121')" onkeypress="this.onclick()">Privacy policy</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/cookies-policy.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/termsandconditions/Pages/cookies-policy.aspx','WT.dl','121')" onkeypress="this.onclick()">Cookies policy</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/LinkingtoChoices.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/LinkingtoChoices.aspx','WT.dl','121')" onkeypress="this.onclick()">Links policy</a></li>
+<li><a href="/accessibility/Pages/Accessibility.aspx "
+    accesskey ="0"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/accessibility/Pages/Accessibility.aspx ','WT.dl','121')" onkeypress="this.onclick()">Accessibility </a></li>
+<li><a href="/choices/pages/sitemap.aspx"
+    accesskey ="3"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Site policies','DCSext.FooterClickUrl','/choices/pages/sitemap.aspx','WT.dl','121')" onkeypress="this.onclick()">Sitemap</a></li>
+</ul>
+
+
+</div><div id="ctl00_ctl00_ctl00_footer_OtherNHSSites" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>Other NHS sites</h2>
+<ul class="info">
+<li><a href="https://www.nhs.uk/service-search/performance/search"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','https://www.nhs.uk/service-search/performance/search','WT.dl','121')" onkeypress="this.onclick()">My NHS</a></li>
+<li><a href="http://www.show.scot.nhs.uk/ "
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.show.scot.nhs.uk/ ','WT.dl','121')" onkeypress="this.onclick()">NHS Scotland</a></li>
+<li><a href="http://www.hscni.net/  "
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.hscni.net/  ','WT.dl','121')" onkeypress="this.onclick()">NHS Northern Ireland</a></li>
+<li><a href="http://www.nhsdirect.wales.nhs.uk/"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.nhsdirect.wales.nhs.uk/','WT.dl','121')" onkeypress="this.onclick()">NHS Wales</a></li>
+<li><a href="http://www.jobs.nhs.uk/"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.jobs.nhs.uk/','WT.dl','121')" onkeypress="this.onclick()">NHS Jobs</a></li>
+<li><a href="https://www.healthcareers.nhs.uk/"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','https://www.healthcareers.nhs.uk/','WT.dl','121')" onkeypress="this.onclick()">Health Careers</a></li>
+<li><a href="http://www.dh.gov.uk/en/index.htm "
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.dh.gov.uk/en/index.htm ','WT.dl','121')" onkeypress="this.onclick()">Department of Health</a></li>
+<li><a href="http://www.england.nhs.uk/"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other NHS sites','DCSext.FooterClickUrl','http://www.england.nhs.uk/','WT.dl','121')" onkeypress="this.onclick()">NHS England</a></li>
+</ul>
+
+
+</div><div id="ctl00_ctl00_ctl00_footer_AbouttheNHS" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>About the NHS</h2>
+<ul class="info">
+<li><a href="/NHSEngland/Pages/NHSEngland.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/NHSEngland/Pages/NHSEngland.aspx','WT.dl','121')" onkeypress="this.onclick()">The NHS in England</a></li>
+<li><a href="/NHSEngland/AboutNHSservices/Pages/NHSServices.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/NHSEngland/AboutNHSservices/Pages/NHSServices.aspx','WT.dl','121')" onkeypress="this.onclick()">About NHS services</a></li>
+<li><a href="/NHSEngland/AboutNHSservices/Pages/nhs-friends-and-family-test.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/NHSEngland/AboutNHSservices/Pages/nhs-friends-and-family-test.aspx','WT.dl','121')" onkeypress="this.onclick()">NHS Friends and Family Test</a></li>
+<li><a href="/aboutNHSChoices/professionals/healthandcareprofessionals/quality-accounts/Pages/about-quality-accounts.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/aboutNHSChoices/professionals/healthandcareprofessionals/quality-accounts/Pages/about-quality-accounts.aspx','WT.dl','121')" onkeypress="this.onclick()">Quality accounts</a></li>
+<li><a href="/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx','WT.dl','121')" onkeypress="this.onclick()">NHS e-Referral Service</a></li>
+<li><a href="/servicedirectories/pages/nhstrustlisting.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/servicedirectories/pages/nhstrustlisting.aspx','WT.dl','121')" onkeypress="this.onclick()">Find authorities and trusts</a></li>
+<li><a href="/nhsengland/thenhs/healthregulators/pages/healthwatch-england.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/nhsengland/thenhs/healthregulators/pages/healthwatch-england.aspx','WT.dl','121')" onkeypress="this.onclick()">Healthwatch England</a></li>
+<li><a href="/NHSEngland/complaints-and-feedback/Pages/nhs-complaints.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','About the NHS','DCSext.FooterClickUrl','/NHSEngland/complaints-and-feedback/Pages/nhs-complaints.aspx','WT.dl','121')" onkeypress="this.onclick()">The NHS complaints procedure</a></li>
+</ul>
+
+
+</div><div id="ctl00_ctl00_ctl00_footer_OtherChannels" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>Other channels</h2>
+<ul class="info">
+<li><a href="http://twitter.com/nhschoices"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other channels','DCSext.FooterClickUrl','http://twitter.com/nhschoices','WT.dl','121')" onkeypress="this.onclick()">Follow us on Twitter</a></li>
+<li><a href="http://www.facebook.com/nhschoices"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other channels','DCSext.FooterClickUrl','http://www.facebook.com/nhschoices','WT.dl','121')" onkeypress="this.onclick()">Facebook</a></li>
+<li><a href="http://www.youtube.com/nhschoices"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other channels','DCSext.FooterClickUrl','http://www.youtube.com/nhschoices','WT.dl','121')" onkeypress="this.onclick()">YouTube</a></li>
+<li><a href="/video/pages/MediaLibrary.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other channels','DCSext.FooterClickUrl','/video/pages/MediaLibrary.aspx','WT.dl','121')" onkeypress="this.onclick()">Video library</a></li>
+<li><a href="/Pages/LinkListing.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Other channels','DCSext.FooterClickUrl','/Pages/LinkListing.aspx','WT.dl','121')" onkeypress="this.onclick()">Links library</a></li>
+</ul>
+
+
+</div><div id="ctl00_ctl00_ctl00_footer_Languages" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>Other Languages</h2>
+
+<span class="language-intro">Visit our </span><span class="language-intro"><a href="/aboutNHSChoices/aboutnhschoices/accessibility/Pages/other-languages-section.aspx" rel='nofollow' onkeypress="this.onclick()">language section</a> for more health websites in foreign languages.</span>
+
+</div><div id="ctl00_ctl00_ctl00_footer_Contact" class="footer-list" Chrome="None" SuppressWebPartChrome="true">
+
+<h2>Contact NHS Choices</h2>
+<ul class="info">
+<li><a href="/aboutNHSChoices/Pages/ContactFilter.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','/aboutNHSChoices/Pages/ContactFilter.aspx','WT.dl','121')" onkeypress="this.onclick()">Choices helpdesk</a></li>
+<li><a href="/aboutnhschoices/contactus/pages/freedom-of-information.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','/aboutnhschoices/contactus/pages/freedom-of-information.aspx','WT.dl','121')" onkeypress="this.onclick()">Freedom of Information requests</a></li>
+<li><a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/working-for-us.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/working-for-us.aspx','WT.dl','121')" onkeypress="this.onclick()">Working for NHS Choices</a></li>
+<li><a href="/aboutnhschoices/Pages/Feedback.aspx?iType=site"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','/aboutnhschoices/Pages/Feedback.aspx?iType=site','WT.dl','121')" onkeypress="this.onclick()">Request content evidence sources</a></li>
+<li><a href="/nhs-direct/Pages/NHS-Direct-legacy-enquiries.aspx"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','/nhs-direct/Pages/NHS-Direct-legacy-enquiries.aspx','WT.dl','121')" onkeypress="this.onclick()">NHS Direct legacy enquiries</a></li>
+<li><a href="mailto:media@nhschoices.nhs.uk?Subject=NHS%20Choices%20Press%20Enquiry"
+  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Contact NHS Choices','DCSext.FooterClickUrl','mailto:media@nhschoices.nhs.uk?Subject=NHS%20Choices%20Press%20Enquiry','WT.dl','121')" onkeypress="this.onclick()">Press enquiries</a></li>
+</ul>
+
+
+</div>
+          </div>
+
+          <div id="footer-tab2" class="footer-tab2 footer-tab-content clear">
+              <div id="ctl00_ctl00_ctl00_footer_ChoicesENewsletters" Chrome="None" SuppressWebPartChrome="true">
+
+<div class="footer-wrap clear"><div class="footer-box-wrap">
+<span class="crnr tl"></span><span class="crnr tr"></span>
+
+<div class="footer-box-content clear">
+			<img src="/PublishingImages/PersonalisationModules/Modules/newsletterpromo.jpg" alt="" />
+	<h2>Get Your Health newsletters</h2>
+<p>Sign up for Your Health, the monthly e-newsletter packed with the latest news and topical tips from NHS Choices</p>
+</div>
+
+<div class="footer-box-button-wrap">
+<div class="footer-box-button">
+<span class="crnr tl"></span><span class="crnr tr"></span>
+<p><span>Get Your Health newsletters</span> <a href="/aboutNHSChoices/aboutnhschoices/e-newsletters/Pages/newsletters-home.aspx"  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Choices e-newsletters','DCSext.FooterClickUrl','/aboutNHSChoices/aboutnhschoices/e-newsletters/Pages/newsletters-home.aspx','WT.dl','121')" onkeypress="this.onclick()"><span class="crnr tl"></span><span class="crnr tr"></span>Sign up<span class="crnr bl"></span><span class="crnr br"></span></a></p>
+<span class="crnr bl"></span><span class="crnr br"></span>
+</div>
+</div>
+
+<span class="crnr bl"></span><span class="crnr br"></span>
+</div>
+
+<div class="footer-col">
+<h2>Emails from NHS Choices</h2>
+<p>NHS Choices offers a range of e-newsletters on various topics. Sign up now to get&nbsp;information,&nbsp;tips and advice straight to your inbox</p>
+
+<ul>
+<li><a href="/Conditions/dementia-guide/Pages/dementia-information-service.aspx"  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Choices e-newsletters','DCSext.FooterClickUrl','/Conditions/dementia-guide/Pages/dementia-information-service.aspx','WT.dl','121')" onkeypress="this.onclick()">Sign up for Dementia Information Service emails</a>
+</li>
+<li><a href="https://www.nhs.uk/InformationServiceForParents/pages/signup.aspx"  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Choices e-newsletters','DCSext.FooterClickUrl','https://www.nhs.uk/InformationServiceForParents/pages/signup.aspx','WT.dl','121')" onkeypress="this.onclick()">Sign up for pregnancy and baby emails</a>
+</li>
+<li><a href="/Livewell/weight-loss-guide/Pages/sign-up-for-weight-loss-email-support.aspx"  rel='nofollow' onclick="dcsMultiTrack('DCSext.FooterClickSection','Choices e-newsletters','DCSext.FooterClickUrl','/Livewell/weight-loss-guide/Pages/sign-up-for-weight-loss-email-support.aspx','WT.dl','121')" onkeypress="this.onclick()">Sign up for weight loss support emails</a>
+</li>
+</ul>
+</div>
+
+</div>
+
+
+</div>
+          </div>
+
+          <div id="footer-tab3" class="footer-tab3 footer-tab-content clear">
+              <div id="ctl00_ctl00_ctl00_footer_PersonalisationFooterDefault1_YourPages" Chrome="None" SuppressWebPartChrome="true">
+
+<div class="footer-wrap your-pages clear">
+
+
+
+
+
+<div class="footer-box-wrap">
+<span class="crnr tl"></span><span class="crnr tr"></span>
+<div class="footer-box-content clear">
+<h2>Create an NHS Choices account</h2>
+<p>With an account you can keep track of pages on the site and save them to this tab, which you can access on every page when you are logged in.</p>
+<div class="footer-box-button-wrap clear">
+<div class="footer-box-button clear">
+<span class="crnr tl"></span><span class="crnr tr"></span>
+<p><a href="/Personalisation/Registration.aspx?ReturnUrl=" onclick="dcsMultiTrack('DCSext.FooterClickSection','Your pages','DCSext.FooterClickUrl','/Personalisation/Registration.aspx?ReturnUrl=','WT.dl','121')" onkeypress="this.onclick()"><span class="crnr tl"></span><span class="crnr tr"></span>Create account<span class="crnr bl"></span><span class="crnr br"></span></a></p>
+<span class="crnr bl"></span><span class="crnr br"></span>
+</div>
+</div>
+<p class="footer-login">Already have an account? <a href="/Personalisation/Login.aspx">Log in</a></p>
+</div>
+<span class="crnr bl"></span><span class="crnr br"></span>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="footer-col">
+<ul>
+<li>
+<h3>Saved pages</h3>
+<p>Keep track of important pages</p>
+</li>
+<li>
+<h3>Recently visited pages</h3>
+<p>Easily find again pages you have been reading</p>
+</li>
+<li class="last">
+<h3>Pages you might like</h3>
+<p>Have pages recommended to you</p>
+</li>
+</ul>
+</div>
+
+
+</div>
+</div>
+          </div>
+
+          <div class="footer-logos clear">
+              <ul>
+                  <li><span class="hidden">&ndash;</span><a href="http://www.gov.uk/"><img src="/img/gov-uk.gif" alt="Link to gov.uk &ndash; The new place to find government services and information" class="gov-uk" /></a></li>
+                  <li><span class="hidden">&ndash;</span><a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/the-information-standard.aspx"><img src="/img/information-standards.gif" alt="The Information Standard - Certified member" /></a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            <!-- Footer ends here.... -->
+        </form>
+
+
+
+
+
+    </div>
+    <!-- webtrends tracking link -->
+    <noscript>
+        <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcss9yzisf9xjyg74mgbihg8p_8d2u/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.4.1&amp;dcssip=.www.nhs.uk" />
+    </noscript>
+    <!-- google analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-9510975-1', 'www.nhs.uk');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+<!-- CH-P-WEB03 @ 28 January 2017 12:22:21 -->
+</html>
