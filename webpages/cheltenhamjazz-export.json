@@ -1,0 +1,1264 @@
+{
+  "posts" : {
+    "-KGH9AaHDsjS4Kv0f6Li" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "lat" : 52.711558886086806,
+      "lon" : -1.3765474727662734,
+      "text" : "Getting everything ready for the festival",
+      "timestamp" : 1461667267983
+    },
+    "-KGLCMu5HVxf72QyblhF" : {
+      "author" : "9e74aee1-d128-41d4-828f-ad9e5813c455",
+      "image" : "http://i.imgur.com/H3pa2Fu.jpg",
+      "lat" : 51.895870583638356,
+      "lon" : -2.1089190244674683,
+      "text" : "Hello there, just testing and I am here at home. See you soon :)",
+      "timestamp" : 1461734896435
+    },
+    "-KGMd9GQaBiP5U9xV1p3" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "lat" : 51.89517871670568,
+      "lon" : -2.0810937881469727,
+      "text" : "Showing the app off",
+      "timestamp" : 1461758890917
+    },
+    "-KGNKmjqQpD-pOsbHo7o" : {
+      "author" : "663efe3b-6a2e-4372-adcc-ed8e235d9b02",
+      "image" : "http://i.imgur.com/KJ8a4ZP.jpg",
+      "lat" : 51.8881549,
+      "lon" : -2.0526953,
+      "text" : "Looking forward to the festival and to being part of the research project. Just added a holiday snap of a famous place!",
+      "timestamp" : 1461770746397
+    },
+    "-KGNnkxWiqGk9BFFOnS4" : {
+      "author" : "a6b317f8-fb57-4982-8aab-15bafb125a79",
+      "lat" : 51.9914181,
+      "lon" : -1.7028526,
+      "text" : "Very excited about the start of the Jazz Festival this evening - hope they aren't snow-bound.  Will be there tomorrow evening for my first event.",
+      "timestamp" : 1461778791866
+    },
+    "-KGO5Cb1_nrWZDLFCYna" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.9070302,
+      "lon" : -2.0772664,
+      "text" : "Waiting for the festival to begin... With BBC introducing at St Paul's Church.",
+      "timestamp" : 1461783560533
+    },
+    "-KGOEhiVtTVJIc9CJ6lr" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.9070251,
+      "lon" : -2.0772311,
+      "text" : "The jazz fest has started. Sarah Munro at BBC Introducing over at St Paul's Church.\nBeautiful rendition of Autumn Leaves. Latest single apparently. ..",
+      "timestamp" : 1461786065959
+    },
+    "-KGRE_jzTvflg3HL3hE0" : {
+      "author" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "image" : "http://i.imgur.com/VHIFf5X.jpg",
+      "lat" : 51.906710647820056,
+      "lon" : -2.0773601531982417,
+      "text" : "Last night was the first of the Around Town programme of events, with BBC Introducing bringing three acts that were nominated by BBC introducing radio stations and was set in the beautiful St Pauls Church and hosted by Jo Whiley. Really lovely way to start the festival! Three very different acts, but I especially liked the Kel Elliott Band - great story telling lyrics and punchy melodies!",
+      "timestamp" : 1461836199081
+    },
+    "-KGSMZrkg0bFrUQkdvgS" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/uo4mZ7k.jpg",
+      "lat" : 51.89819890725354,
+      "lon" : -2.0732811727324814,
+      "text" : "Arrived in Cheltenham and checked in to a room with a view.",
+      "timestamp" : 1461855264879
+    },
+    "-KGSRTVyMAPiftWkJrXf" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/TXUP1i5.jpg",
+      "lat" : 51.89812186304804,
+      "lon" : -2.0739747820694867,
+      "text" : "Just arrived",
+      "timestamp" : 1461856489662
+    },
+    "-KGSSE61njJNIO6nL7g9" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "lat" : 51.89788807305899,
+      "lon" : -2.073880185416783,
+      "text" : "Checking out the hotel WiFi",
+      "timestamp" : 1461856763936
+    },
+    "-KGSUHDXHVAASRBhoA2j" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/3Z7opKU.jpg",
+      "lat" : 51.89755270750899,
+      "lon" : -2.077569316161892,
+      "text" : "Town Hall venue right next to our hotel",
+      "timestamp" : 1461857323065
+    },
+    "-KGSUQrw33uHLlOs7oVD" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/qJHDgrX.jpg",
+      "lat" : 51.89749673937153,
+      "lon" : -2.0774228573590205,
+      "text" : "Almost there...",
+      "timestamp" : 1461857318921
+    },
+    "-KGSVjqd7O4NZOCsds4H" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/P9f1xa8.jpg",
+      "lat" : 51.895942486246376,
+      "lon" : -2.081151089277582,
+      "text" : "Jazz...",
+      "timestamp" : 1461857674177
+    },
+    "-KGSVuRm3xkDjj4nFAON" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/4P051sg.jpg",
+      "lat" : 51.89464846816669,
+      "lon" : -2.0811141333740473,
+      "text" : "Strange mixture of Spring sunshine and...snow.",
+      "timestamp" : 1461857736232
+    },
+    "-KGSXoo8m3EvbHheWyjf" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89545678890639,
+      "lon" : -2.080965042114258,
+      "text" : "I'm here",
+      "timestamp" : 1461858227362
+    },
+    "-KGS_0AXVgbKbumUMM9J" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/M10vuPv.jpg",
+      "lat" : 51.89518159441362,
+      "lon" : -2.0822711461053816,
+      "text" : "Pedro & Nick from the J-Hive team considering what to have for a pre-Jazz snack in Harry Cook's bar. Also slightly pensive due to some of the bugs and issues with the interface that we're trying to iron out",
+      "timestamp" : 1461858626618
+    },
+    "-KGS_3WFPSDyj1A3SIrh" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/bEvHjbW.jpg",
+      "lat" : 51.89518678354902,
+      "lon" : -2.082238935827632,
+      "text" : "Jazz lunch...",
+      "timestamp" : 1461858836272
+    },
+    "-KGS_8UaQbViYhBFawfu" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.893152710157885,
+      "lon" : -2.081995010375976,
+      "text" : "Waiting for jazz fest to open",
+      "timestamp" : 1461858871748
+    },
+    "-KGS_BTn8KtT29pGzooH" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "image" : "http://i.imgur.com/HbxID9V.jpg",
+      "lat" : 51.89214665151631,
+      "lon" : -2.07899911190907,
+      "text" : "",
+      "timestamp" : 1461858735216
+    },
+    "-KGSasag5WLW2WEkL9Im" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/tQ0rbyd.jpg",
+      "lat" : 51.895172556626775,
+      "lon" : -2.0822399081169802,
+      "text" : "At the HARRY COOK FREE HOUSE",
+      "timestamp" : 1461859291827
+    },
+    "-KGSb-DBOYQm9xAL4skX" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/kAaSABp.jpg",
+      "lat" : 51.895205199846544,
+      "lon" : -2.0818501710891724,
+      "text" : "View of the Big Top from the pub across the road",
+      "timestamp" : 1461859282724
+    },
+    "-KGSfHoMyiEzlMQ0ruQD" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89499995509647,
+      "lon" : -2.077617645263672,
+      "text" : "On our way to meet the punters",
+      "timestamp" : 1461860439520
+    },
+    "-KGSh9_RD7OQTwtDmcdJ" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89484767612769,
+      "lon" : -2.0818448066711426,
+      "text" : "At the free stage with Pedro and Craig",
+      "timestamp" : 1461860936429
+    },
+    "-KGShv9kciXTS1O0E9GA" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89483112403479,
+      "lon" : -2.079366445541382,
+      "text" : "First act is about to take the stage for some beat boxing.",
+      "timestamp" : 1461861088158
+    },
+    "-KGShvCTh_a-jKiOWlSr" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/baX3mhw.jpg",
+      "lat" : 51.89484575768178,
+      "lon" : -2.0792964566518357,
+      "text" : "The J-Hive team are in the Cafe next to the Free Stage. We'll be here until 6.30pm if you need assistance, or just want to listen to the music with us. You'll find us next to the coffee bar, underneath the Miles Davis poster.",
+      "timestamp" : 1461861071376
+    },
+    "-KGSiav6PCiDfoVRG_8h" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/pwIySWb.jpg",
+      "lat" : 51.89513873266296,
+      "lon" : -2.0802600077953497,
+      "text" : "Just started... Festival Free Stage",
+      "timestamp" : 1461861298716
+    },
+    "-KGSitFPQ4hV6crpbpfp" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.894715259213626,
+      "lon" : -2.0793986320495605,
+      "text" : "Time for chocolate hit",
+      "timestamp" : 1461861440745
+    },
+    "-KGSjWTCad20EPw6-Ect" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89479801983065,
+      "lon" : -2.0791518688201904,
+      "text" : "Synth loops. Voice samples. Warming up the crowd.",
+      "timestamp" : 1461861539770
+    },
+    "-KGSmyx6L3_jSSYhgz-M" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/5FkBELR.jpg",
+      "lat" : 51.89516342521526,
+      "lon" : -2.079898483863742,
+      "text" : "Free stage",
+      "timestamp" : 1461862471777
+    },
+    "-KGSq63oEzFCl6_XiJl9" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "lat" : 51.898336799999996,
+      "lon" : -2.0736403,
+      "text" : "Bug fixin'!",
+      "timestamp" : 1461863337294
+    },
+    "-KGSs_Cydzza7iEAfNMA" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/T2eWpe3.jpg",
+      "lat" : 51.895059542378576,
+      "lon" : -2.079956531524658,
+      "text" : "George Montague with some nice toons.",
+      "timestamp" : 1461863932831
+    },
+    "-KGSss87MJG15-tRAarj" : {
+      "author" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "image" : "http://i.imgur.com/J9dQMTe.jpg",
+      "lat" : 51.89519857906277,
+      "lon" : -2.0793986320495605,
+      "text" : "The Free Stage is open for business! Up tonight is George Montague, Amy Fitz Doyley and Chameleon!",
+      "timestamp" : 1461863979192
+    },
+    "-KGSvRpu6ytbtvfk3ZAe" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/YDJaxiP.jpg",
+      "lat" : 51.89479973327684,
+      "lon" : -2.0794299304092867,
+      "text" : "Tony and Pedro outside J-Hive central.",
+      "timestamp" : 1461864665506
+    },
+    "-KGSvcwF3SV8Cr1GRlG6" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.894923664359155,
+      "lon" : -2.0795183501572807,
+      "text" : "",
+      "timestamp" : 1461864746570
+    },
+    "-KGSxfZ0Ryzh_ssNF7Aj" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "lat" : 51.89483822171522,
+      "lon" : -2.080278396606445,
+      "text" : "Lovely to be back in Cheltenham!",
+      "timestamp" : 1461865153877
+    },
+    "-KGT2_R5cCSeS8NoGzv0" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/VDCZBjU.jpg",
+      "lat" : 51.89525154530552,
+      "lon" : -2.0796990394592285,
+      "text" : "In to tbe VIP tent. They were exprcting Toni and the main Guy!",
+      "timestamp" : 1461866084604
+    },
+    "-KGTiHAj4UTtFrMENwVe" : {
+      "author" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "image" : "http://i.imgur.com/7iDBPR7.jpg",
+      "lat" : 51.896988951575885,
+      "lon" : -2.0736560753441364,
+      "text" : "Caught the last bit of Lianne La Havas in the Big Top! Her voice is incredible and great atmosphere in the tent!",
+      "timestamp" : 1461877967856
+    },
+    "-KGToFFtDJKiVVMe2xhX" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/RMryYse.jpg",
+      "lat" : 51.89633009658979,
+      "lon" : -2.074477900371237,
+      "text" : "I think we are off the beaten path. The Bath Tavern, and we are comfortably the oldest people in the place. Lovely little bar, live music (although Oasis & Elvis covers maybe not Jazz), a strange local dancer.",
+      "timestamp" : 1461879495821
+    },
+    "-KGVwTI3gDtlaWec3a_3" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/EknpLaG.jpg",
+      "lat" : 51.89800053839748,
+      "lon" : -2.072552712636136,
+      "text" : "This is a welcome sight.",
+      "timestamp" : 1461915279334
+    },
+    "-KGVykI29Im9HgGQ6CHw" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "image" : "http://i.imgur.com/pk28Hdm.jpg",
+      "lat" : 51.898334,
+      "lon" : -2.0733122,
+      "text" : "A few morning bug fixes done, now for a reward!",
+      "timestamp" : 1461915899521
+    },
+    "-KGW3aaNe-cLATSLS3qz" : {
+      "author" : "c4ca245c-f9d9-40f4-82e9-00dc47611ea0",
+      "lat" : 51.8948032,
+      "lon" : -2.0820591,
+      "text" : "Caught Joanne Shaw Taylor at Arena last night. Really enjoyed it but blues artists always seem to be at the rock end of the spectrum these days.  Big audience but I wonder whether calling it Blues means an older audience.  Also caught Chris Gumbley playing Cannonball Adderley tunes at Hotel du Vin, great playing from a top quintet.  Lianne La Havas was brilliant at Big Top; artists like her and Laura Mvula belong in a jazz festival in my view",
+      "timestamp" : 1461917203215
+    },
+    "-KGWE4bu-Ur6rueGBXev" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/luJeJrn.jpg",
+      "lat" : 51.89487856078778,
+      "lon" : -2.0815561630584014,
+      "text" : "Research (Jazz) Festival",
+      "timestamp" : 1461920145478
+    },
+    "-KGWE7VjkKJccKXSAbYT" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.895360690402725,
+      "lon" : -2.0820083784543533,
+      "text" : "",
+      "timestamp" : 1461920226855
+    },
+    "-KGWE91XBrSLTnXAvsyZ" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.89501674850648,
+      "lon" : -2.0813355222363783,
+      "text" : "",
+      "timestamp" : 1461920238626
+    },
+    "-KGWEBxmUEGy6CmHS_BN" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.89496276905005,
+      "lon" : -2.081373911352904,
+      "text" : "",
+      "timestamp" : 1461920244860
+    },
+    "-KGWEDogF3uJex7alzYI" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.894933516207985,
+      "lon" : -2.081371899696143,
+      "text" : "",
+      "timestamp" : 1461920256854
+    },
+    "-KGWEGDWKJCZJSxN1YJs" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.89496947457259,
+      "lon" : -2.081410959364922,
+      "text" : "",
+      "timestamp" : 1461920264452
+    },
+    "-KGWEIxgUGAmXegV6EHe" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.89496947457259,
+      "lon" : -2.081410959364922,
+      "text" : "",
+      "timestamp" : 1461920274296
+    },
+    "-KGWEJgqSTWOWLWOqT5e" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "lat" : 51.89500124198561,
+      "lon" : -2.081428728999646,
+      "text" : "",
+      "timestamp" : 1461920285507
+    },
+    "-KGWEfS_HoZt_H8UWa-f" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/poWxjAq.jpg",
+      "lat" : 51.89500124198561,
+      "lon" : -2.081428728999646,
+      "text" : "Jazz Arena",
+      "timestamp" : 1461920311642
+    },
+    "-KGWG5UPcFPsQULu2GTr" : {
+      "author" : "76c7253e-f461-44f1-98dd-e7f5999abe80",
+      "image" : "http://i.imgur.com/TLmEXmZ.jpg",
+      "lat" : 51.89485760738052,
+      "lon" : -2.0817214250564575,
+      "text" : "Setting up for our Researching (Jazz) Festivals day at Cheltenham",
+      "timestamp" : 1461920627241
+    },
+    "-KGWHJ13Q7k_D6yXGeyN" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "lat" : 51.89496685101671,
+      "lon" : -2.081179618835449,
+      "text" : "Preparing for a day in the family tent!",
+      "timestamp" : 1461920969980
+    },
+    "-KGWN_uQlb1e5yHfyG6M" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89489733236987,
+      "lon" : -2.0818233489990234,
+      "text" : "Researching Jazz Festivals day of ideas and discussion has just begun. Chris Anderton talking about outddor festivals.",
+      "timestamp" : 1461922599943
+    },
+    "-KGWNlG4lAJHcAZk_9vm" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/A1m1ZHf.jpg",
+      "lat" : 51.89501459782752,
+      "lon" : -2.0818989641616428,
+      "text" : "Festival Research",
+      "timestamp" : 1461922724728
+    },
+    "-KGWOYwPAd-6MhVHbG8p" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89464242974455,
+      "lon" : -2.0815712213516235,
+      "text" : "Shift in the way festivals are organised...",
+      "timestamp" : 1461922785402
+    },
+    "-KGWRlT_OwKPBn51QDd4" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/2mj06Ok.jpg",
+      "lat" : 51.899037207768,
+      "lon" : -2.072732514567177,
+      "text" : "More bug fixing, another coffee shop. We've also set up automatic harvesting of Tweets related to the project, Cheltenham Jazz Festival, and UNESCO Jazz Day. Heading off to Montpellier Gardens shortly to meet participants and to hear some music on the Free Stage. Cheltenham is much nicer on a sunny day. Last night the rain was almost comical.",
+      "timestamp" : 1461923642561
+    },
+    "-KGWUqY2dx3-VrzLEk_y" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89471856964124,
+      "lon" : -2.081501483917236,
+      "text" : "It's really cold in the Take Five tent. Matt Brennan from Edinburgh Uni talking about the environmental impact of festivals. The panel are drinking from plastic cups!",
+      "timestamp" : 1461924506856
+    },
+    "-KGWZn_G8S4KKbrGaRIx" : {
+      "author" : "76c7253e-f461-44f1-98dd-e7f5999abe80",
+      "image" : "http://i.imgur.com/aJ90abK.jpg",
+      "lat" : 51.89465567147498,
+      "lon" : -2.082113027572632,
+      "text" : "Festival researchers discuss significance & devlopment of music festivals at our Researching (Jazz) Festivals day at Cheltenham",
+      "timestamp" : 1461925746394
+    },
+    "-KGW_6hCbQI_Alfc5unr" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/PVoJg5O.jpg",
+      "lat" : 51.89742264808332,
+      "lon" : -2.074194811286474,
+      "text" : "A few doors down from our hotel, this must be the home of the pub dancer we saw last night.",
+      "timestamp" : 1461924362370
+    },
+    "-KGW__JFLKZNV4cczrtb" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "lat" : 51.89493439630782,
+      "lon" : -2.079581273721605,
+      "text" : "The J-Hive team are at the coffee shop next to the Free Stage in Montpellier Gardens. We'll be here until 1.30pm to provide assistance with the interface. Come and say hello.",
+      "timestamp" : 1461926044434
+    },
+    "-KGWgD0K09zFgCEDPiS1" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "image" : "http://i.imgur.com/meidzzl.jpg",
+      "lat" : 51.8947969576596,
+      "lon" : -2.078456639770814,
+      "text" : "Looking forward to the new gin mix",
+      "timestamp" : 1461927771280
+    },
+    "-KGWhXW3uZMZy0N6DpnO" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "",
+      "lat" : 51.894635808877865,
+      "lon" : -2.0820647478103638,
+      "text" : "A session on European Jazz Research at the Festivals symposium. George McKay, Francesco Martinelli and Tony Whyton. Francesco is talking about the history of the Europe Hazz Network. It's getting warmer...",
+      "timestamp" : 1461928014004
+    },
+    "-KGWljvrL61uew0nu8Fa" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "image" : "http://i.imgur.com/eYlNEuY.jpg",
+      "lat" : 51.89396985551057,
+      "lon" : -2.0721876494514677,
+      "text" : "Great new initiatives from Francesco Martinelli on telling the stories of European jazz.",
+      "timestamp" : 1461929217552
+    },
+    "-KGWnJAJbQcOQeDTIzLE" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/4yL3oDC.jpg",
+      "lat" : 51.895170135059374,
+      "lon" : -2.081734861807942,
+      "text" : "European Jazz Research",
+      "timestamp" : 1461929676702
+    },
+    "-KGWyQ1NsC05n1_jvKeU" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/sjGYIFF.jpg",
+      "lat" : 51.895265485192034,
+      "lon" : -2.081509609026749,
+      "text" : "Lunch time",
+      "timestamp" : 1461932566103
+    },
+    "-KGWzFwBHZGSCUc6m082" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/J3V5pmu.jpg",
+      "lat" : 51.89508331966651,
+      "lon" : -2.081580781385624,
+      "text" : "CHIME lunch",
+      "timestamp" : 1461932793397
+    },
+    "-KGX4-UgCsSa2TG9Jbgv" : {
+      "author" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "lat" : 51.8970791,
+      "lon" : -2.0998579,
+      "text" : "Heading home. Just seen a load of musicians get off the train from London",
+      "timestamp" : 1461934213814
+    },
+    "-KGX7844dkqAEVoPRPJX" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/Y1i9fSs.jpg",
+      "lat" : 51.89554541313538,
+      "lon" : -2.0803476379189765,
+      "text" : "Taking advantage of the warmth and wi-fi available in the VIP tent, monitoring tweet data that is coming in.",
+      "timestamp" : 1461935092059
+    },
+    "-KGX7GDwBbCkKHrfs0yj" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/DCelPGB.jpg",
+      "lat" : 51.89507566679041,
+      "lon" : -2.081569192370567,
+      "text" : "Piano session",
+      "timestamp" : 1461935146040
+    },
+    "-KGX7fwRWU2KgA1WKsVC" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/42G74OZ.jpg",
+      "lat" : 51.89502195007907,
+      "lon" : -2.0816210103224364,
+      "text" : "Jazz Festival Directors",
+      "timestamp" : 1461935261426
+    },
+    "-KGX7uxoixVC5gaKFT2b" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89470863835768,
+      "lon" : -2.0818448066711426,
+      "text" : "It's the 20th anniversary of Cheltenham Jazz Fest. Tony Dudley Evans was there from the start.",
+      "timestamp" : 1461935284499
+    },
+    "-KGX8AvvnnpnvRCSD_vy" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/FCaBAKW.jpg",
+      "lat" : 51.89510182482367,
+      "lon" : -2.081346167253406,
+      "text" : "J-HIVE Staff",
+      "timestamp" : 1461935405301
+    },
+    "-KGXDGwiE15DmJXnn1df" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/zFHI6Fo.jpg",
+      "lat" : 51.89513829178,
+      "lon" : -2.0816288924996753,
+      "text" : "J-Hiving",
+      "timestamp" : 1461936698020
+    },
+    "-KGXEZ9a-uvENqgiVGqJ" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "image" : "http://i.imgur.com/C7ryt8K.jpg",
+      "lat" : 51.89521894947523,
+      "lon" : -2.0816693727385425,
+      "text" : "Me giving a talk about Cheltenham, festivals and heritage (my colleagues are listening - honest!). Great conversations and presentations on festivals from leading scholars and festival directors.",
+      "timestamp" : 1461936986640
+    },
+    "-KGXGXNqMkP8BDSu1hMB" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/AbOCvyK.jpg",
+      "lat" : 51.88797094493547,
+      "lon" : -2.096339387340446,
+      "text" : "Still feeling so happy to have heard Liane La Havas last night. A voice like chocolate",
+      "timestamp" : 1461937520802
+    },
+    "-KGXLjPiUWp0-p7yp-i9" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "image" : "http://i.imgur.com/quIcIc0.jpg",
+      "lat" : 51.89396985551057,
+      "lon" : -2.0721876494514677,
+      "text" : "About to learn about current research initiatives for jazz festivals. Stephanie, Nick & Allison.",
+      "timestamp" : 1461938878314
+    },
+    "-KGXMRf-mKtHb7yZjPGx" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/TFk1lSt.jpg",
+      "lat" : 51.894596083657326,
+      "lon" : -2.081480026245117,
+      "text" : "Stuck inside a portals in scheduling artist transport while the sun is shining outside (note essential festival supplies of lucozade, water, chocolate and fruit)",
+      "timestamp" : 1461939067773
+    },
+    "-KGXMVjN4v9L5xzGFAQv" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/DIcnVw9.jpg",
+      "lat" : 51.89514880402939,
+      "lon" : -2.081338698400006,
+      "text" : "Jazz Research",
+      "timestamp" : 1461939129409
+    },
+    "-KGXQWNFzq1z8PDM8Pf_" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/54T90XF.jpg",
+      "lat" : 51.89494036773537,
+      "lon" : -2.080256938934326,
+      "text" : "Great to see 80 local school students watching the Friday Night is Music Night rehearsal as part of their music industry careers sessions at the festival organised by the Cheltenham Festivals education team.",
+      "timestamp" : 1461939194655
+    },
+    "-KGXRFQfNATIqezav_MP" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "lat" : 51.89494953897345,
+      "lon" : -2.081805092292534,
+      "text" : "",
+      "timestamp" : 1461939009306
+    },
+    "-KGXRICQKwI83BZipEYZ" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "lat" : 51.8949441193155,
+      "lon" : -2.081423616038711,
+      "text" : "",
+      "timestamp" : 1461940455883
+    },
+    "-KGXRf4AjzoagJlNDXUG" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/yGbSc4v.jpg",
+      "lat" : 51.894834434453855,
+      "lon" : -2.080557346343994,
+      "text" : "Watching a bit of the FNIMN soundcheck - remembering why we're working so hard in the portacabin!",
+      "timestamp" : 1461940262567
+    },
+    "-KGXS-exZg0_Tmafmhgm" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/Uu9DTy1.jpg",
+      "lat" : 51.89512312750643,
+      "lon" : -2.0817817507823615,
+      "text" : "J-HIVE",
+      "timestamp" : 1461940585776
+    },
+    "-KGXTqVlR1oSk3tKFIdV" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/ITy4mM2.jpg",
+      "lat" : 51.89894435511199,
+      "lon" : -2.0729116636153,
+      "text" : "This record shop is great. A real treasure trove. When you see a well-stocked Krautrock section you know you're in the right place",
+      "timestamp" : 1461941047103
+    },
+    "-KGXUWuNcUIfSfFjJBc0" : {
+      "author" : "76c7253e-f461-44f1-98dd-e7f5999abe80",
+      "image" : "http://i.imgur.com/L5WuhE6.jpg",
+      "lat" : 51.88370342756091,
+      "lon" : -2.092519998550415,
+      "text" : "Prof nick Gebhardt is explaining this J-Hive project to the delegates at the Researchng (Jazz) Festivals symposium at Cheltenham right now",
+      "timestamp" : 1461940704253
+    },
+    "-KGXe40PWwTSza-eRKh_" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/0Qpk3gJ.jpg",
+      "lat" : 51.8952291230941,
+      "lon" : -2.0802422979541784,
+      "text" : "The J-HIVE team are in the Coffee Cafe next to the Free Stage until 5.30pm. If you need assistance or would like to discuss the project, come and say hi. We're sat to the right of the coffee counter, next to the blue Miles Davis poster.",
+      "timestamp" : 1461943954155
+    },
+    "-KGXmig5clHqdANYL9ro" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "image" : "http://i.imgur.com/6vEC3s2.jpg",
+      "lat" : 51.89509346129738,
+      "lon" : -2.0801745423188494,
+      "text" : "George launching the impact report. Cheers!",
+      "timestamp" : 1461940467252
+    },
+    "-KGXoOjOAtCZ1vcFI6ds" : {
+      "author" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "image" : "http://i.imgur.com/ByqrfWd.jpg",
+      "lat" : 51.89510475848978,
+      "lon" : -2.079651933165341,
+      "text" : "Report launch party. Good times but effing cold! At least the rain is outside.",
+      "timestamp" : 1461946346447
+    },
+    "-KGXprBlYIJyrEjU4d6o" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/YyWlIjs.jpg",
+      "lat" : 51.89519195827804,
+      "lon" : -2.080830931663513,
+      "text" : "Jacob collier in the Weston's sessions - great voice",
+      "timestamp" : 1461947100403
+    },
+    "-KGXqHp9xmy3jYoE8kvN" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/2GXOgmk.jpg",
+      "lat" : 51.89839630406102,
+      "lon" : -2.0827460289001465,
+      "text" : "Checking out the set up for Dinner Games at PAC - sonic canapés in the making",
+      "timestamp" : 1461946886199
+    },
+    "-KGYS22fNDugxBNhHT-f" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/MXzSyNM.jpg",
+      "lat" : 51.89712402991692,
+      "lon" : -2.077674359536831,
+      "text" : "Penguin Cafe Orchestra at the Town Hall. Could be a little louder, but a beautiful show. Effortless (it seems) and a great setting.",
+      "timestamp" : 1461957288423
+    },
+    "-KGYasJEUGDjAMfyJK6m" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "lat" : 51.89853533042015,
+      "lon" : -2.083228826522827,
+      "text" : "Just introduced Mads Mathias' gig at Hotel du Vin. Good job I checked how to pronounce his name first - it's actually 'mass matteeas'! The Jazz Cellar is looking and sounding stunning though and he played some great original tunes which somehow sound like standards.",
+      "timestamp" : 1461959593848
+    },
+    "-KGYm5AMGebk6eN4xWO9" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/zpYVQP3.jpg",
+      "lat" : 51.8950065759095,
+      "lon" : -2.0804286003112793,
+      "text" : "Michael Jackson vibes - just popped in to the 'no view' seats to catch a bit of FNIMN",
+      "timestamp" : 1461962906313
+    },
+    "-KGYnQuFtOCGaWyQHS5s" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/YHw3a58.jpg",
+      "lat" : 51.89508933598995,
+      "lon" : -2.0806485414505,
+      "text" : "And they're on their feet for Thriller (FNIMN). Watching 1300 people dancing makes all the stress worthwhile!!",
+      "timestamp" : 1461962957661
+    },
+    "-KGYtOSWEpxWlUXdl_GP" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/yc7sXLy.jpg",
+      "lat" : 51.89840954468518,
+      "lon" : -2.082628011703491,
+      "text" : "From Quincy Jones to a love remix of Soweto Kinch. Great that there's something for everyone on tonight, although I'll be heading to bed shortly - huge day on Saturday with 19 shows to keep an eye on.",
+      "timestamp" : 1461964792631
+    },
+    "-KGYtfC_XQylApYmKtjO" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.894395072791625,
+      "lon" : -2.080547389887215,
+      "text" : "Multi talented multi dimensional multi faceted multiplied multiple times. That's a bit of what Jacob Collier is all about. \nOne of the best ever gigs I  have ever seen, here or anywhere",
+      "timestamp" : 1461964763185
+    },
+    "-KGZ0H3G-d_cUX08ugmM" : {
+      "author" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "image" : "http://i.imgur.com/MkyoQYI.jpg",
+      "lat" : 51.89395385438496,
+      "lon" : -2.081581950187683,
+      "text" : "Are the stars out tonight, don't know if it's cloudy or bright?  \n\nStarry sky as I head home from the office at 22.54, back in for 9 tomorrow...",
+      "timestamp" : 1461966808348
+    },
+    "-KGZ4sosZH9GccE4-viB" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/DBEegN5.jpg",
+      "lat" : 51.89833178891734,
+      "lon" : -2.082690277294533,
+      "text" : "Jazzzzzzzzzz at HdV makes Cheltenham",
+      "timestamp" : 1461967966499
+    },
+    "-KGZAg6ZmUSOuRxqDSZW" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.8986063,
+      "lon" : -2.0826623,
+      "text" : "Ian Shaw entertaining the masses, some somewhat less sober than others, in his inimitable and highly entertaining manner. Great jazz and great fun.",
+      "timestamp" : 1461969118667
+    },
+    "-KGZJR7qWERrAU8Z3jkE" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "lat" : 51.898374976525055,
+      "lon" : -2.0827000259183945,
+      "text" : "",
+      "timestamp" : 1461968145957
+    },
+    "-KGZWBTizivEhw6TMj0_" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/t95Y3GN.jpg",
+      "lat" : 51.898363470906006,
+      "lon" : -2.0826662296706324,
+      "text" : "",
+      "timestamp" : 1461971959703
+    },
+    "-KGZWPhF9_iNKJDfjnp9" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/ffGjWvl.jpg",
+      "lat" : 51.898393654070524,
+      "lon" : -2.08254624943933,
+      "text" : "Kicking off",
+      "timestamp" : 1461975303902
+    },
+    "-KGaFnU1vLCvIKkLo-bA" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/CG3gR9E.jpg",
+      "lat" : 51.89821006016195,
+      "lon" : -2.072835909363592,
+      "text" : "Hazy sunshine seems promising for our final day at Cheltenham.",
+      "timestamp" : 1462004484306
+    },
+    "-KGaHnx3ND0X3q6G8OgZ" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "image" : "",
+      "lat" : 51.89671471307533,
+      "lon" : -2.081437110900879,
+      "text" : "Followed our ears last night en route to Parabola Arts, moving from pub to venue to pub - so great to have live jazz everywhere and to let sound govern the space for a change!",
+      "timestamp" : 1461937130082
+    },
+    "-KGaT18dK9ObGcre3A06" : {
+      "author" : "c4ca245c-f9d9-40f4-82e9-00dc47611ea0",
+      "lat" : 51.897865509297915,
+      "lon" : -2.0818511697442594,
+      "text" : "Waiting for the Trondheim Birmingham exchange gig. Last night saw four amazing sets from Jacob Collier, Soweto Kinch, Josh Berman and Bebe Wang",
+      "timestamp" : 1462007955651
+    },
+    "-KGaa9z8N3kMRC_9uBJ2" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/5ZVEcvO.jpg",
+      "lat" : 51.89889568308499,
+      "lon" : -2.0729748090588154,
+      "text" : "Stage being set up in Cambray Place, just off the main drag and next to that great record shop I found yesterday. Oxfam Books & Music shop is opposite.",
+      "timestamp" : 1462010058030
+    },
+    "-KGaj27SxrHyI_iVza9K" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/9CtAzgz.jpg",
+      "lat" : 51.89494345453519,
+      "lon" : -2.07943154238437,
+      "text" : "The J-HIVE team are in the garden outside the Free Stage, currently listening the school bands and enjoying the sunshine. Come and say hello if you need assistance, or just want to hang out. For those who haven't met us, here is what we look like!",
+      "timestamp" : 1462011839868
+    },
+    "-KGakeA4udLQFgWuweW7" : {
+      "author" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "image" : "http://i.imgur.com/biHbVNu.jpg",
+      "lat" : 51.894856853606164,
+      "lon" : -2.0790693000590994,
+      "text" : "School Big Bands",
+      "timestamp" : 1462012632093
+    },
+    "-KGal5SQnDk9jBy1YLbK" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/qCHgxoY.jpg",
+      "lat" : 51.89550975484477,
+      "lon" : -2.0806753635406494,
+      "text" : "Happy International Jazz Day",
+      "timestamp" : 1462012957423
+    },
+    "-KGal9jHLX2E3wAwRW2g" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.8948283313604,
+      "lon" : -2.079485423534006,
+      "text" : "",
+      "timestamp" : 1462013028397
+    },
+    "-KGalog0Qe5MEJwgZcL3" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89488104549413,
+      "lon" : -2.0795466564615066,
+      "text" : "School bands on the Free Stage. Big crowd, lots of kids.",
+      "timestamp" : 1462013056419
+    },
+    "-KGanIY0Y03pdxGl0AMd" : {
+      "author" : "db5b1852-dd5b-43e8-b631-a67138ddc35a",
+      "image" : "http://i.imgur.com/Jo7vbrt.jpg",
+      "lat" : 51.89432793749996,
+      "lon" : -2.079806327819824,
+      "text" : "",
+      "timestamp" : 1462013565314
+    },
+    "-KGanncLKUP8g07C3O6K" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/zv8h3uh.jpg",
+      "lat" : 51.89474932073733,
+      "lon" : -2.0795057650100364,
+      "text" : "Craig talking to Nigel, one of our project participants.",
+      "timestamp" : 1462013594748
+    },
+    "-KGavX8gUeSI0rFhKY3c" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/ZuKBEyN.jpg",
+      "lat" : 51.898990793990116,
+      "lon" : -2.0728276307532245,
+      "text" : "Drummer arrived in time for the band's last few songs.",
+      "timestamp" : 1462015694651
+    },
+    "-KGazoJhmf0dyY-4C4Yc" : {
+      "author" : "db5b1852-dd5b-43e8-b631-a67138ddc35a",
+      "image" : "http://i.imgur.com/rtMX6GS.jpg",
+      "lat" : 51.89449346000834,
+      "lon" : -2.081978917121887,
+      "text" : "Family Tent / Jazz Babies with Holly Thomas",
+      "timestamp" : 1462016821513
+    },
+    "-KGb0ocIOiPXnY5gAx0V" : {
+      "author" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "image" : "http://i.imgur.com/tPesLdM.jpg",
+      "lat" : 51.898219756254484,
+      "lon" : -2.082061352899314,
+      "text" : "Nice way to start day 4 - Trondhiem exchange",
+      "timestamp" : 1462016659078
+    },
+    "-KGb3RIoE1XRJuHFc4Ef" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/fbXzDtU.jpg",
+      "lat" : 51.89469010573988,
+      "lon" : -2.079830886798054,
+      "text" : "Time for lunch",
+      "timestamp" : 1462018037103
+    },
+    "-KGb4bVw24vU0rNJPomB" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "image" : "http://i.imgur.com/Qxy0coL.jpg",
+      "lat" : 51.894873965670456,
+      "lon" : -2.079574095644369,
+      "text" : "Montpellier Gardens transformed by the festival. The main walkway through the festival site.",
+      "timestamp" : 1462018327856
+    },
+    "-KGb90jf3yEcs6nmLXKp" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "lat" : 51.89891268551213,
+      "lon" : -2.0731759071350098,
+      "text" : "Nice to hear jazz around town! I've seen free stages, buskers, banners and inflatable saxophones...",
+      "timestamp" : 1462019422793
+    },
+    "-KGbC2b19l4_f_BFyK2V" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/5u0lDhF.jpg",
+      "lat" : 51.895417645399895,
+      "lon" : -2.0802516395812054,
+      "text" : "A quick stop in the VIP tent to recharge phones and check activity on the server. The interface has captured around 120 stories so far.",
+      "timestamp" : 1462020267069
+    },
+    "-KGbDuxl-UbCyVK3Fdz_" : {
+      "author" : "db5b1852-dd5b-43e8-b631-a67138ddc35a",
+      "image" : "http://i.imgur.com/7oduyJx.jpg",
+      "lat" : 51.894556358401644,
+      "lon" : -2.081780433654785,
+      "text" : "Jazz Babies!",
+      "timestamp" : 1462020733358
+    },
+    "-KGbF5NB7WVjYSB1Ew6B" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/FaAnd1W.jpg",
+      "lat" : 51.895421175334505,
+      "lon" : -2.0803464576621358,
+      "text" : "Waiting for Jazz Jamaica in the big top",
+      "timestamp" : 1462021092193
+    },
+    "-KGbLz_ubToXLa7XsHX4" : {
+      "author" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "lat" : 51.89541863114852,
+      "lon" : -2.080349963622645,
+      "text" : "Jazz Jamaica All Stars and others in the Big Top. Sold out 2000 punters. it is not as connected to the gardens or the surrounding square. Could be anywhere - aany time of day (no natural light).",
+      "timestamp" : 1462022663002
+    },
+    "-KGbPEzOJVh1JEgQRN0T" : {
+      "author" : "9e74aee1-d128-41d4-828f-ad9e5813c455",
+      "image" : "http://i.imgur.com/cBjsJrp.jpg",
+      "lat" : 51.89579681032514,
+      "lon" : -2.1092312503625723,
+      "text" : "Couldn't post from event but just got home from wild words the ugly swanling in the take 5 family tent. This is coast enjoying the music and colours",
+      "timestamp" : 1462023732136
+    },
+    "-KGbPGAOY7sXnw9kR7pm" : {
+      "author" : "9e74aee1-d128-41d4-828f-ad9e5813c455",
+      "lat" : 51.895744423430315,
+      "lon" : -2.109218342231688,
+      "text" : "",
+      "timestamp" : 1462023815206
+    },
+    "-KGbVZ4zUgTb9_2ikKgx" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/4dwrDKp.jpg",
+      "lat" : 51.89522386533385,
+      "lon" : -2.08045659586981,
+      "text" : "Crowd are loving the Jazz Jamaica show. Dancing in the aisles. Not sure how this band have managed to fit in the stage. There are tonnes are them.",
+      "timestamp" : 1462025303398
+    },
+    "-KGbVZwhoLiCkIDgGoJx" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "lat" : 51.89524934631949,
+      "lon" : -2.0803876966257397,
+      "text" : "",
+      "timestamp" : 1462025470473
+    },
+    "-KGbinL4mPM_D8EUkmTP" : {
+      "author" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "lat" : 51.8955229963196,
+      "lon" : -2.08066463470459,
+      "text" : "Loved the Jazz Jamaica gig - so good to see Cheltenham audiences dancing and to hear that Gary Crosby needed to 'bring in the brummies'!",
+      "timestamp" : 1462029013494
+    },
+    "-KGbjAMBK22k4-IkCy2c" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/dxGFnVx.jpg",
+      "lat" : 51.89516182999997,
+      "lon" : -2.0710012900088666,
+      "text" : "Nick will see you now",
+      "timestamp" : 1462029266525
+    },
+    "-KGbjs0yHoYY8fh3vjm5" : {
+      "author" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "image" : "http://i.imgur.com/NBG2Lkm.jpg",
+      "lat" : 51.89909805176485,
+      "lon" : -2.0724034309387207,
+      "text" : "First pop up performance of the weekend with Collective 43 before it started raining!",
+      "timestamp" : 1462029399258
+    },
+    "-KGbjtMiSlFsfKniYjcu" : {
+      "author" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "lat" : 51.89494534275281,
+      "lon" : -2.079324434412385,
+      "text" : "",
+      "timestamp" : 1462029484344
+    },
+    "-KGbwirbPZzrjuiXtRgD" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.89538026016668,
+      "lon" : -2.080215871277213,
+      "text" : "",
+      "timestamp" : 1462032835526
+    },
+    "-KGbzLdAWuNCN1yB9AmW" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.89531659839295,
+      "lon" : -2.0804031985583076,
+      "text" : "Waiting for Guy Garvey!",
+      "timestamp" : 1462033521772
+    },
+    "-KGc03tQz9xoUHYFZGoF" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "image" : "http://i.imgur.com/aXGDkob.jpg",
+      "lat" : 51.896306,
+      "lon" : -2.0796627,
+      "text" : "Guy Harvey in the big top.\nLooking forward to this.",
+      "timestamp" : 1462033812120
+    },
+    "-KGc6H1_19efONfQIxjv" : {
+      "author" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "image" : "http://i.imgur.com/cLhEuHA.jpg",
+      "lat" : 51.89740747430202,
+      "lon" : -2.1000193309878252,
+      "text" : "Thanks Cheltenham.",
+      "timestamp" : 1462035584643
+    },
+    "-KGcglx44st51wMbVOCG" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.89526119193219,
+      "lon" : -2.0803173348584645,
+      "text" : "Having a glass of red before seeing Beverley Knight. Great atmosphere! Weather's holding so far!",
+      "timestamp" : 1462045324257
+    },
+    "-KGdG_zjpZ_l0Bj5mZSf" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.897134801116735,
+      "lon" : -2.0800875666146985,
+      "text" : "131 psrty",
+      "timestamp" : 1462055078768
+    },
+    "-KGdMJ1ThAgA0HQ0CCaK" : {
+      "author" : "db5b1852-dd5b-43e8-b631-a67138ddc35a",
+      "image" : "http://i.imgur.com/0Exoj8f.jpg",
+      "lat" : 51.89845588683905,
+      "lon" : -2.0845216512680054,
+      "text" : "Mike Fletcher Trio+1 blowing their socks off / 4pm",
+      "timestamp" : 1462056380760
+    },
+    "-KGhvLV0LazOnaBl4EMJ" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.89539535250224,
+      "lon" : -2.0805271596160937,
+      "text" : "Just arrived to see Corinne Bailey Rae!",
+      "timestamp" : 1462133113158
+    },
+    "-KGlpoLGdtfQ43cWoP0O" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.894106417820495,
+      "lon" : -2.0803431236845427,
+      "text" : "Just been listening to fasting gypsy swing trio: Remy Harris project \nHyperdextrous and very enjoyable.",
+      "timestamp" : 1462198666794
+    },
+    "-KGm-7dto9SZsmHhBMeO" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.9172542,
+      "lon" : -2.0659753,
+      "text" : "8 piece Ben Cipolla band have just warmed the venue up a bit with some  high tempo latiny stuff",
+      "timestamp" : 1462201442225
+    },
+    "-KGm6wrIqa9ShfCPD8Qh" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "lat" : 51.8951117,
+      "lon" : -2.0810568,
+      "text" : "",
+      "timestamp" : 1462203547054
+    },
+    "-KGmvzLCKY5QAitFBdqR" : {
+      "author" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "image" : "http://i.imgur.com/f5aD3V0.jpg",
+      "lat" : 51.895118,
+      "lon" : -2.0804428,
+      "text" : "Final gig of the festival \uD83D\uDE23\uD83D\uDE23\nBUT IT'S JAMIE!!!\uD83D\uDE0A\uD83D\uDE0A\uD83D\uDE0A",
+      "timestamp" : 1462217059590
+    },
+    "-KGniGGnszyoGeB3cYMc" : {
+      "author" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "lat" : 51.89517871670568,
+      "lon" : -2.0802676677703857,
+      "text" : "As always a truly stunning performance from Jamie Cullum and musicians. I remember seeing him at the Jazz Festival several years ago with Gregory Porter singing Gran Torino, with the lyrics written on a piece of paper! Have seen him many times since and he always puts on an exceptional show.",
+      "timestamp" : 1462227896450
+    }
+  },
+  "users" : {
+    "01f18a53-d5ee-42f8-904d-4c768a3c042c" : {
+      "id" : "01f18a53-d5ee-42f8-904d-4c768a3c042c",
+      "profileImage" : "https://secure.gravatar.com/avatar/8e4861c31c6870dc08e636a3d7866456?d=retro",
+      "username" : "ahawkinsmusic@gmail.com"
+    },
+    "09b48804-fc38-4979-ab84-ec3488d43da3" : {
+      "id" : "09b48804-fc38-4979-ab84-ec3488d43da3",
+      "profileImage" : "https://secure.gravatar.com/avatar/bdd51dd2fd592ae989aaac63e2d59db8?d=retro",
+      "username" : "tony.whyton@bcu.ac.uk"
+    },
+    "12cf2372-767a-4df5-b50f-4fbbd2516a26" : {
+      "displayName" : "Louise",
+      "id" : "12cf2372-767a-4df5-b50f-4fbbd2516a26",
+      "level" : "staff",
+      "profileImage" : "https://secure.gravatar.com/avatar/b87d0a9dd5b9b38a399c6a96e7808234?d=retro",
+      "username" : "louise.emerson@cheltenhamfestivals.com"
+    },
+    "3962e836-48a7-4668-b053-055ecdcb0520" : {
+      "displayName" : "Nick",
+      "id" : "3962e836-48a7-4668-b053-055ecdcb0520",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/e44c992573897e71a64581bd7fc10891?d=retro",
+      "username" : "nick@boirecords.co.uk"
+    },
+    "3f3cd144-9a36-4044-a627-b087638dc94c" : {
+      "id" : "3f3cd144-9a36-4044-a627-b087638dc94c",
+      "profileImage" : "https://secure.gravatar.com/avatar/11b0ded0555eafe26d0d73faee26fb2d?d=retro",
+      "username" : "nigelsouthgate@pinearch.freeserve.co.uk"
+    },
+    "3f825079-d124-4c4a-b2f3-df3446f448f6" : {
+      "id" : "3f825079-d124-4c4a-b2f3-df3446f448f6",
+      "profileImage" : "https://secure.gravatar.com/avatar/0d0ab888bf7ac29d659cb7ab41beac86?d=retro",
+      "username" : "simoneclark20@gmail.com"
+    },
+    "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c" : {
+      "displayName" : "Jory",
+      "id" : "4b7dd3e3-24f0-4b0b-b105-21b6d052b42c",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/b03a601079a86efff32e883df7c1b9a6?d=retro",
+      "username" : "jory.debenham@bcu.ac.uk"
+    },
+    "4c65ec42-f294-4e01-a670-d7cfdbcd0062" : {
+      "id" : "4c65ec42-f294-4e01-a670-d7cfdbcd0062",
+      "profileImage" : "https://secure.gravatar.com/avatar/d947789e7efa9bdc8033296e4f854d19?d=retro",
+      "username" : "emily.jones@cheltenhamfestivals.com"
+    },
+    "4ddb3596-029c-45b0-8798-e62a60d7433c" : {
+      "displayName" : "Hana Ayoob",
+      "id" : "4ddb3596-029c-45b0-8798-e62a60d7433c",
+      "level" : "staff",
+      "profileImage" : "https://secure.gravatar.com/avatar/c6b2d2c6ab6613b70e6b36827265f5c1?d=retro",
+      "username" : "hana.ayoob@cheltenhamfestivals.com"
+    },
+    "663efe3b-6a2e-4372-adcc-ed8e235d9b02" : {
+      "displayName" : "Heather",
+      "id" : "663efe3b-6a2e-4372-adcc-ed8e235d9b02",
+      "level" : "festivalgoer",
+      "profileImage" : "https://secure.gravatar.com/avatar/6709e3ce4510eb60adf8dbfaa590cd88?d=retro",
+      "username" : "heatherholt123@gmail.com"
+    },
+    "6dd931cd-32bc-4b5f-a8cb-01e6913d0d88" : {
+      "displayName" : "lfineran",
+      "id" : "6dd931cd-32bc-4b5f-a8cb-01e6913d0d88",
+      "level" : "staff",
+      "profileImage" : "https://secure.gravatar.com/avatar/5b3025170a69af99d4ba58026fbf75d4?d=retro",
+      "username" : "lyndsey.fineran@cheltenhamfestivals.com"
+    },
+    "76c7253e-f461-44f1-98dd-e7f5999abe80" : {
+      "displayName" : "George",
+      "id" : "76c7253e-f461-44f1-98dd-e7f5999abe80",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/dd6e27cf8d1f2349c417e34861815100?d=retro",
+      "username" : "george.mckay@uea.ac.uk"
+    },
+    "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2" : {
+      "displayName" : "Lin",
+      "id" : "7cd58ad5-3aba-485a-b77a-c2f29c79a9e2",
+      "level" : "festivalgoer",
+      "profileImage" : "https://secure.gravatar.com/avatar/b2ee0b25e3354039c9edece63231f889?d=retro",
+      "username" : "lin@lincrossley.com"
+    },
+    "9e74aee1-d128-41d4-828f-ad9e5813c455" : {
+      "displayName" : "Becky Martin",
+      "id" : "9e74aee1-d128-41d4-828f-ad9e5813c455",
+      "level" : "festivalgoer",
+      "profileImage" : "https://secure.gravatar.com/avatar/1a513e0af92f580aa4107a0448ee3786?d=retro",
+      "username" : "bluemartin@icloud.com"
+    },
+    "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2" : {
+      "displayName" : "Pedro",
+      "id" : "9efcd0a9-1be0-4e2c-93a9-d724b6bbcda2",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/e1efabf1f1744650f69e7d4215ca9d96?d=retro",
+      "username" : "pedro.cravinho@bcu.ac.uk"
+    },
+    "a6b317f8-fb57-4982-8aab-15bafb125a79" : {
+      "id" : "a6b317f8-fb57-4982-8aab-15bafb125a79",
+      "profileImage" : "https://secure.gravatar.com/avatar/b6dde23a9154080e81333f4203395273?d=retro",
+      "username" : "kate@katedanielson.co.uk"
+    },
+    "af36ce1c-e050-442e-b94a-2c3080e3ad81" : {
+      "displayName" : "PAM",
+      "id" : "af36ce1c-e050-442e-b94a-2c3080e3ad81",
+      "level" : "festivalgoer",
+      "profileImage" : "https://secure.gravatar.com/avatar/b3a5ec48b60f4fb5e60bcb39f494f226?d=retro",
+      "username" : "paul.andrew.massey@btinternet.com"
+    },
+    "c4ca245c-f9d9-40f4-82e9-00dc47611ea0" : {
+      "id" : "c4ca245c-f9d9-40f4-82e9-00dc47611ea0",
+      "profileImage" : "https://secure.gravatar.com/avatar/93c485363e4601f66f3acc720435ab0c?d=retro",
+      "username" : "dudley.evans@virgin.net"
+    },
+    "c95af2f2-e755-452d-b55e-92a0f2f22262" : {
+      "displayName" : "Mike Fletcher",
+      "id" : "c95af2f2-e755-452d-b55e-92a0f2f22262",
+      "level" : "artist",
+      "profileImage" : "https://secure.gravatar.com/avatar/0427ae7dfc4a1d5f6dab72223721d7e4?d=retro",
+      "username" : "mikefletcherjazz@gmail.com"
+    },
+    "d56a004c-f42f-4c01-9827-8dcd25bef1fd" : {
+      "displayName" : "Craig",
+      "id" : "d56a004c-f42f-4c01-9827-8dcd25bef1fd",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/5f8f3bcda238923582ef18658b431b13?d=retro",
+      "username" : "craig.hamilton@bcu.ac.uk"
+    },
+    "db5b1852-dd5b-43e8-b631-a67138ddc35a" : {
+      "displayName" : "Sam",
+      "id" : "db5b1852-dd5b-43e8-b631-a67138ddc35a",
+      "level" : "promoter",
+      "profileImage" : "https://secure.gravatar.com/avatar/db23ad38743ab03234fc1444b9ad77ba?d=retro",
+      "username" : "sam@stoneylane.net"
+    },
+    "dda7b91a-2daf-4991-a688-9c03679ac2ca" : {
+      "displayName" : "Becky",
+      "id" : "dda7b91a-2daf-4991-a688-9c03679ac2ca",
+      "level" : "staff",
+      "profileImage" : "https://secure.gravatar.com/avatar/25ecf5bcf59c5647bbd31b0c054cb4d9?d=retro",
+      "username" : "becky.woodcock@cheltenhamfestivals.com"
+    },
+    "f934412d-8545-4852-af71-9644be1df8ad" : {
+      "id" : "f934412d-8545-4852-af71-9644be1df8ad",
+      "level" : "researcher",
+      "profileImage" : "https://secure.gravatar.com/avatar/c7dfe026ef84786709bb5094fe6e2d0b?d=retro",
+      "username" : "nicholas.gebhardt@bcu.ac.uk"
+    },
+    "fd3098a6-258c-4d61-8f66-2018f5e9651f" : {
+      "displayName" : "Chris Roberts",
+      "id" : "fd3098a6-258c-4d61-8f66-2018f5e9651f",
+      "level" : "festivalgoer",
+      "profileImage" : "https://secure.gravatar.com/avatar/e62bb1bd8be314a61fbc26c602254279?d=retro",
+      "username" : "cj99@btinternet.com"
+    }
+  }
+}
