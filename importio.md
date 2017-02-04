@@ -12,7 +12,7 @@ To begin creating a new scraper it's a good idea to start from the Import.io das
 
 Click on the **New Extractor** button on the left.
 
-A box should appear asking you to type the URL of the page that you want to scrape. We're going to scrape the [StarNow model directory](https://www.starnow.co.uk/talent/uk/models/).
+A box should appear asking you to type the URL of the page that you want to scrape. We're going to scrape the [StarNow model directory](https://www.starnow.co.uk/talent/uk/models/). At first, we can use that to say what is the most popular name among models, and where are most models based. But as we drill down in more detail we can look at things like the diversity of models and whether those with more castings share particular characteristics.
 
 Paste that URL, then: `https://www.starnow.co.uk/talent/uk/models/`
 
@@ -22,11 +22,23 @@ It doesn't always work so smoothly on other websites, but we'll come onto some t
 
 But because it's worked, you can now click **Save**. 
 
-After a moment, you should be taken to the dashboard for that scraper. If you run it now, you will get the data for that page. 
+After a moment, you should be taken to the dashboard for that scraper. If you run it now, you will get the data for that page.
+
+**Great! We now have data on 20 models! What next?**
+
+Well, it would good to grab a few hundred so we can analyse more...
 
 ### Generating a list of URLs to scrape
 
+On the scraper dashboard you can apply this scraper to *more than one* URL. There are three ways to do this:
 
+* Manually type or paste URLs into the box
+* Generate URLs
+* Take URLs from another scraper ('extractor') - we'll do this later
+
+Of course typing URLs isn't much fun, so I'm going to show you how to generate a list of URLs - and then scrape them.
+
+Click on the button **Show URL Generator**
 
 The first page of the directory has a URL like this: `starnow.co.uk/talent/uk/models`
 
