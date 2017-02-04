@@ -1,0 +1,1133 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+This site is powered by tribepad.  More information available at www.tribepad.com
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+            
+        <title>
+					</title>
+		
+
+	<meta name="description" content="Security jobs and careers with G4S " />
+	<meta name="keywords" content="" />
+        <meta name="author" content="Tribepad security job management" />
+
+		<link rel="stylesheet" href="https://careers.g4s.com/wp-content/themes/g4s/leaflet/leaflet.css" />
+									<link rel="stylesheet" href="https://cdn-1.tribepad.com/g4s/style.css?v=105" type="text/css" media="screen" />
+			            <style>
+				.leaflet-top, .leaflet-bottom { z-index:1 !Important; }
+				.leaflet-control-attribution.leaflet-control {font-size:9px; color:black; background:white; padding:5px; border-top:1px solid #ccc;} 
+				.leaflet-control-attribution a { color:black; }
+				.directions {
+					background:url(https://careers.g4s.com/wp-content/themes/g4s/images/directions.png) 2px -1px no-repeat;
+				}
+			</style>
+		        <link rel="shortcut icon" href="https://careers.g4s.com/wp-content/themes/g4s/favicon.ico" type="image/x-icon" />
+
+	
+        
+		<!--[if IE 7]>
+		<style type="text/css">
+		.selectedTxt {float:left;}
+		.home #twitter_fid ul li span {width:550px;height:20px;overflow:hidden;float:left;}
+		.footer_links { margin-left:0px; }
+		.lengBox { margin-left: 10px; float: left; }
+		
+		body { width: 99%; }
+		
+		
+	
+		#registerTop { margin-left:10px; margin-top:1px; line-height:17px; }
+		.success-item { margin-top:-15px; }
+		
+		#ShowIndImgGalBox img {
+			left:9px;
+		}
+		
+				</style>
+		<![endif]-->
+		<!--[if IE 6]>
+		<style type="text/css" title="">
+		.header .menu-primary-navigation-container ul li a {width:50px;text-align:center;}
+		.header .menu-primary-navigation-container ul li#menu-item-30 a {width:120px;}
+		.header .menu-primary-navigation-container ul li#menu-item-9 a  {width:90px;}
+		.header .menu-primary-navigation-container ul li#menu-item-606 a {width:70px;}
+		.header .menu-primary-navigation-container ul li#menu-item-30 li a, .header .menu-primary-navigation-container ul li#menu-item-9 li a,.header .menu-primary-navigation-container ul li#menu-item-606 li a {width:187px;height:26px;text-align:left;}
+		.widget-area {margin-left:4px;}
+		.content {margin-right:4px;}
+		#MeetOurPeoplePages {width:740px;overflow:hidden;}
+		#MeetOurPeoplePages a.browse {margin-left:7px;margin-right:7px;}
+		.content .post img {width:758px;}
+		#FindUs .fl_left {width:350px;}
+		#FindUs .fl_right {width:200px;}
+		</style>
+		<![endif]-->
+                	<script type="text/javascript" src="https://cdn-1.tribepad.com/g4s/combined.js?v=106"></script>
+                
+<script type="text/javascript" src="https://cdn-1.tribepad.com/g4s/job.js"></script> 
+
+
+
+
+<script type="text/javaScript">
+	var $get_i = "";
+	var $get_t = "";
+
+	if ($get_i == '1') {
+		internal_get = 1;
+	}
+	else {
+		internal_get = 0;
+	}
+
+	if (internal_get==1) {
+		$.cookie('wp_internal', null);
+		var g4s_internal = 1;
+		$.cookie('wp_internal', '1', { expires: 1, path: "/" });
+	} else {
+		if(!($.cookie('wp_internal'))) {
+			$.cookie('wp_internal', null);
+			var g4s_internal = 0;
+			$.cookie('wp_internal', '2', { expires: 1, path: "/" });
+		 } else if ($.cookie('wp_internal')==1) {
+			$.cookie('wp_internal', null);
+			var g4s_internal = 1;
+			$.cookie('wp_internal', '1', { expires: 1, path: "/" });
+		 }
+	}
+	
+	if ($get_t!="") {
+		$.cookie('wp_tag', null);
+		$.cookie('wp_tag', $get_t, { expires: 1, path: "/" });
+	}
+
+function $_GET(key) {
+	try {
+		return window.location.search.match(new RegExp('[\?&]' + key + '=([^&#]+)'))[1];
+	} catch (err) {
+		return '';
+	}
+}
+
+$('document').ready(function()
+{
+	var sCookiesAccepted = "on";
+	if ($.cookie('cookillian_opt_out') == 1) { sCookiesAccepted = 'off'; }
+	
+	if ($.cookie('wp_internal')==1)
+	{
+		var sCookieStateParam = "&cookieState=" + sCookiesAccepted + "&lang=en";
+		$('#loginTop').attr('href',$('#loginTop').attr('href') + '?internal=1' + sCookieStateParam);
+		$('#registerTop').attr('href',$('#registerTop').attr('href') + '?internal=1' + sCookieStateParam);
+		$('#loginWidget').attr('href',$('#loginWidget').attr('href') + '?internal=1' + sCookieStateParam);
+		$('#registerWidget').attr('href',$('#registerWidget').attr('href') + '?internal=1' + sCookieStateParam);
+		if($.cookie("wp_tag")) {
+			$('#loginTop').attr('href',$('#loginTop').attr('href') + '&t=' + $.cookie("wp_tag") + sCookieStateParam);
+		$('#registerTop').attr('href',$('#registerTop').attr('href') + '&t=' + $.cookie("wp_tag") + sCookieStateParam);
+		$('#loginWidget').attr('href',$('#loginWidget').attr('href') + '&t=' + $.cookie("wp_tag") + sCookieStateParam);
+		$('#registerWidget').attr('href',$('#registerWidget').attr('href') + '&t=' + $.cookie("wp_tag") + sCookieStateParam);	
+		}
+	}
+	else
+	{
+		var sCookieStateParam = "?cookieState=" + sCookiesAccepted + "&lang=en";
+		$('#loginTop').attr('href',$('#loginTop').attr('href') + sCookieStateParam);
+		$('#registerTop').attr('href',$('#registerTop').attr('href') + sCookieStateParam);
+		$('#loginWidget').attr('href',$('#loginWidget').attr('href') + sCookieStateParam);
+		$('#registerWidget').attr('href',$('#registerWidget').attr('href') + sCookieStateParam);
+	}
+}
+);
+</script>
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/careers.g4s.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.2"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='https://careers.g4s.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://careers.g4s.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://careers.g4s.com/wp-includes/wlwmanifest.xml" /> 
+
+</head>
+<body class="" >
+
+<div class="main_bg"><div class="main">
+	<div class="header">
+		<a href="https://careers.g4s.com" class="logo"></a>
+	<h1>
+		Security and facilities management jobs and careers with G4S     </h1>
+	<span class="loginButBox">
+		
+			<div class="lengBox">
+				<a class="countryStart close" href="#" data-class="country">Select a G4S Careers Site</a>
+				<div class="lengBoxLoad hide country">
+					<div class="lengBoxNav"><a href="#" class="lengBoxclose">Close</a></div>
+					<div id="countryChange">
+						<div class="g12">
+							<ul>
+                            	<li><a href="http://careers.g4s.com">Global Careers</a></li>
+	<li><a href="http://ukjobs.g4s.com">UK Jobs</a></li>
+	<li><a href="http://eventsjobsuk.g4s.com">Security Jobs for UK Events</a></li>
+	<li><a href="http://usajobs.g4s.com">Security Jobs in the USA</a></li>
+	<li><a href="http://canadajobs.g4s.com">Security Jobs in Canada</a></li>
+	<li><a href="http://greaterchinajobs.g4s.com/zh-hans/">简体中文网页</a></li>
+        <li><a href="http://greaterchinajobs.g4s.com">繁體中文網頁</a></li>
+	<li style="white-space: nowrap;"><a href="http://avoda.g4s.co.il/">עבודה וקריירה בישראל</a></li>
+        <li style="white-space: nowrap;"><a href="http://amejobs.g4s.com">Asia and Middle East Career Opportunities</a></li>
+	<li style="white-space: nowrap;"><a href="http://africajobs.g4s.com">Security jobs in Africa</a></li>
+        <li style="white-space: nowrap;"><a href="http://africajobs.g4s.com/fr/">Emplois dans la sécurité en Afrique</a></li>
+	<li style="white-space: nowrap;"><a href="http://jobsat.g4s.com">Stellenangebote bei G4S Österreich</a></li>
+<li style="white-space: nowrap;"><a href="http://empleos.g4s.com/">Empleos y carreras con G4S</a></li>
+<li style="white-space: nowrap;"><a href="http://technologycareers.g4s.com/">Technology careers within G4S</a></li>                            </ul>
+						</div>
+						<div class="both"></div><br/>
+					</div>
+				</div>
+			</div>
+	    
+    
+		<a href="http://community.g4s.com/members/" id="registerTop" class="btn accent"><span class="bg_l"><span class="bg_r">Login / Register</span></span></a>
+	</span> 
+	
+	<div class="menu-primary-navigation-container"><ul id="menu-primary-navigation" class="menu"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-8"><a href="http://careers.g4s.com/"><span>Home</span></a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9"><a href="http://www.g4s.com/en/Who%20we%20are/"><span>About G4S</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="http://www.g4s.com/en/Who%20we%20are/Where%20we%20operate/"><span>Where we operate</span></a></li>
+	<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="http://www.g4s.com/en/Who%20we%20are/Our%20Group%20Values/"><span>Culture &#038; values</span></a></li>
+	<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="http://www.g4s.com/en/Media%20Centre/Key%20facts%20and%20figures/"><span>G4S fact sheet</span></a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="http://www.g4s.com/en/Who%20we%20are/History/"><span>History</span></a></li>
+	<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="http://www.g4s.com/en/Who%20we%20are/Our%20people/"><span>Our management</span></a></li>
+	<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="http://www.g4s.com/en/Who%20we%20are/Memberships%20and%20accreditations/"><span>Memberships &#038; accreditations</span></a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="http://www.g4s.com/"><span>Back to G4S website</span></a></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="https://careers.g4s.com/meet-our-people/"><span>Meet our people</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://careers.g4s.com/meet-our-people/operational-employees/"><span>Operational employees</span></a></li>
+	<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="https://careers.g4s.com/meet-our-people/management-and-support/"><span>Management &#038; support</span></a></li>
+	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://careers.g4s.com/meet-our-people/stategic-management/"><span>Strategic management</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2147"><a href="https://careers.g4s.com/our-recruitment-process/"><span>Our Recruitment Process</span></a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-606"><a href="http://community.g4s.com/members/register/"><span>Join Us</span></a></li>
+<li id="menu-item-794" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-794"><a href="https://careers.g4s.com/category/blog/"><span>BLOG</span></a></li>
+<li id="menu-item-1462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="https://careers.g4s.com/cookies/"><span>Website Cookies</span></a></li>
+<li id="menu-item-1647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647"><a href="https://careers.g4s.com/helpfaq/"><span>Help</span></a></li>
+</ul></div>
+		
+	
+	</div>
+	<div class="main_bg_w">
+
+
+	<div class="widget-area fl_left">
+		<!-- begin sidebar -->
+
+
+		
+            	
+                        
+		        
+        
+
+                <form method="get" action="https://careers.g4s.com/search-job.php" id="FindForm" accept-charset="UTF-8"> <!-- class="expose"> -->
+                <input type="hidden" name="find_type" value="0" />
+                <div class="box">
+                        <h2><span></span>Job Search</h2>
+                        
+                        <div class="margin-bottom">
+                            <p><label>Keywords:</label></p>
+                            <p><input type="text" class="bord" title="(e.g. job title, skills)" data-title="(e.g. job title, skills)" name="keywords" id="keywords" /></p>
+                        </div>
+                        
+                        <div class="margin-bottom">
+                             
+                            	    <p><label>Countries:</label></p>
+                                    <p><span class="bord">
+                                        <select name="lc[]" id="location_country"> 
+                                                                                            <option value="" select="selected">Please select</option>
+                                                                                        <option value="0">Flexible</option>
+<option value="2">Afghanistan</option>
+<option value="3">Aland Islands</option>
+<option value="4">Albania</option>
+<option value="5">Algeria</option>
+<option value="6">American Samoa</option>
+<option value="7">Andorra</option>
+<option value="8">Angola</option>
+<option value="9">Anguilla</option>
+<option value="10">Antarctica</option>
+<option value="11">Antigua and Barbuda</option>
+<option value="12">Argentina</option>
+<option value="13">Armenia</option>
+<option value="14">Aruba</option>
+<option value="15">Australia</option>
+<option value="16">Austria</option>
+<option value="17">Azerbaijan</option>
+<option value="18">Bahamas</option>
+<option value="19">Bahrain</option>
+<option value="20">Bangladesh</option>
+<option value="21">Barbados</option>
+<option value="22">Belarus</option>
+<option value="23">Belgium</option>
+<option value="24">Belize</option>
+<option value="25">Benin</option>
+<option value="26">Bermuda</option>
+<option value="27">Bhutan</option>
+<option value="28">Bolivia, Plurinational State of</option>
+<option value="29">Bosnia and Herzegovina</option>
+<option value="30">Botswana</option>
+<option value="31">Bouvet Island</option>
+<option value="32">Brazil</option>
+<option value="33">British Indian Ocean Territory</option>
+<option value="34">Brunei Darussalam</option>
+<option value="35">Bulgaria</option>
+<option value="36">Burkina Faso</option>
+<option value="37">Burundi</option>
+<option value="38">Cambodia</option>
+<option value="39">Cameroon</option>
+<option value="40">Canada</option>
+<option value="41">Cape Verde</option>
+<option value="42">Cayman Islands</option>
+<option value="43">Central African Republic</option>
+<option value="44">Chad</option>
+<option value="45">Chile</option>
+<option value="46">China</option>
+<option value="47">Christmas Island</option>
+<option value="48">Cocos (Keeling) Islands</option>
+<option value="49">Colombia</option>
+<option value="50">Comoros</option>
+<option value="51">Congo</option>
+<option value="52">Congo, the Democratic Republic of the</option>
+<option value="53">Cook Islands</option>
+<option value="54">Costa Rica</option>
+<option value="55">Cote d'Ivoire</option>
+<option value="56">Croatia</option>
+<option value="57">Cuba</option>
+<option value="58">Cyprus</option>
+<option value="59">Czech Republic</option>
+<option value="60">Denmark</option>
+<option value="61">Djibouti</option>
+<option value="62">Dominica</option>
+<option value="63">Dominican Republic</option>
+<option value="64">Ecuador</option>
+<option value="65">Egypt</option>
+<option value="66">El Salvador</option>
+<option value="67">Equatorial Guinea</option>
+<option value="68">Eritrea</option>
+<option value="69">Estonia</option>
+<option value="70">Ethiopia</option>
+<option value="71">Falkland Islands (Malvinas)</option>
+<option value="72">Faroe Islands</option>
+<option value="73">Fiji</option>
+<option value="74">Finland</option>
+<option value="75">France</option>
+<option value="76">French Guiana</option>
+<option value="77">French Polynesia</option>
+<option value="78">French Southern Territories</option>
+<option value="79">Gabon</option>
+<option value="80">Gambia</option>
+<option value="81">Georgia</option>
+<option value="82">Germany</option>
+<option value="83">Ghana</option>
+<option value="84">Gibraltar</option>
+<option value="85">Greece</option>
+<option value="86">Greenland</option>
+<option value="87">Grenada</option>
+<option value="88">Guadeloupe</option>
+<option value="89">Guam</option>
+<option value="90">Guatemala</option>
+<option value="91">Guernsey</option>
+<option value="92">Guinea</option>
+<option value="93">Guinea-Bissau</option>
+<option value="94">Guyana</option>
+<option value="95">Haiti</option>
+<option value="96">Heard Island and McDonald Islands</option>
+<option value="97">Holy See (Vatican City State)</option>
+<option value="98">Honduras</option>
+<option value="99">Hong Kong</option>
+<option value="100">Hungary</option>
+<option value="101">Iceland</option>
+<option value="102">India</option>
+<option value="103">Indonesia</option>
+<option value="104">Iran, Islamic Republic of</option>
+<option value="105">Iraq</option>
+<option value="106">Ireland</option>
+<option value="107">Isle of Man</option>
+<option value="108">Israel</option>
+<option value="109">Italy</option>
+<option value="110">Jamaica</option>
+<option value="111">Japan</option>
+<option value="112">Jersey</option>
+<option value="113">Jordan</option>
+<option value="114">Kazakhstan</option>
+<option value="115">Kenya</option>
+<option value="116">Kiribati</option>
+<option value="117">Korea, Democratic People's Republic of</option>
+<option value="118">Korea, Republic of</option>
+<option value="119">Kuwait</option>
+<option value="120">Kyrgyzstan</option>
+<option value="121">Lao People's Democratic Republic</option>
+<option value="122">Latvia</option>
+<option value="123">Lebanon</option>
+<option value="124">Lesotho</option>
+<option value="125">Liberia</option>
+<option value="126">Libya</option>
+<option value="127">Liechtenstein</option>
+<option value="128">Lithuania</option>
+<option value="129">Luxembourg</option>
+<option value="130">Macao</option>
+<option value="131">Macedonia, the former Yugoslav Republic of</option>
+<option value="132">Madagascar</option>
+<option value="133">Malawi</option>
+<option value="134">Malaysia</option>
+<option value="135">Maldives</option>
+<option value="136">Mali</option>
+<option value="137">Malta</option>
+<option value="138">Marshall Islands</option>
+<option value="139">Martinique</option>
+<option value="140">Mauritania</option>
+<option value="141">Mauritius</option>
+<option value="142">Mayotte</option>
+<option value="143">Mexico</option>
+<option value="144">Micronesia, Federated States of</option>
+<option value="145">Moldova, Republic of</option>
+<option value="146">Monaco</option>
+<option value="147">Mongolia</option>
+<option value="148">Montenegro</option>
+<option value="149">Montserrat</option>
+<option value="150">Morocco</option>
+<option value="151">Mozambique</option>
+<option value="152">Myanmar</option>
+<option value="153">Namibia</option>
+<option value="154">Nauru</option>
+<option value="155">Nepal</option>
+<option value="156">Netherlands</option>
+<option value="157">Netherlands Antilles</option>
+<option value="158">New Caledonia</option>
+<option value="159">New Zealand</option>
+<option value="160">Nicaragua</option>
+<option value="161">Niger</option>
+<option value="162">Nigeria</option>
+<option value="163">Niue</option>
+<option value="164">Norfolk Island</option>
+<option value="165">Northern Mariana Islands</option>
+<option value="166">Norway</option>
+<option value="167">Oman</option>
+<option value="168">Pakistan</option>
+<option value="169">Palau</option>
+<option value="171">Panama</option>
+<option value="172">Papua New Guinea</option>
+<option value="173">Paraguay</option>
+<option value="174">Peru</option>
+<option value="175">Philippines</option>
+<option value="176">Pitcairn</option>
+<option value="177">Poland</option>
+<option value="178">Portugal</option>
+<option value="179">Puerto Rico</option>
+<option value="180">Qatar</option>
+<option value="181">Reunion</option>
+<option value="182">Romania</option>
+<option value="183">Russian Federation</option>
+<option value="184">Rwanda</option>
+<option value="185">Saint Barthelemy</option>
+<option value="186">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="187">Saint Kitts and Nevis</option>
+<option value="188">Saint Lucia</option>
+<option value="189">Saint Martin (French part)</option>
+<option value="190">Saint Pierre and Miquelon</option>
+<option value="191">Saint Vincent and the Grenadines</option>
+<option value="192">Samoa</option>
+<option value="193">San Marino</option>
+<option value="194">Sao Tome and Principe</option>
+<option value="195">Saudi Arabia</option>
+<option value="196">Senegal</option>
+<option value="197">Serbia</option>
+<option value="198">Seychelles</option>
+<option value="199">Sierra Leone</option>
+<option value="200">Singapore</option>
+<option value="201">Slovakia</option>
+<option value="202">Slovenia</option>
+<option value="203">Solomon Islands</option>
+<option value="204">Somalia</option>
+<option value="205">South Africa</option>
+<option value="206">South Georgia and the South Sandwich Islands</option>
+<option value="207">Spain</option>
+<option value="208">Sri Lanka</option>
+<option value="209">Sudan</option>
+<option value="210">Suriname</option>
+<option value="211">Svalbard and Jan Mayen</option>
+<option value="212">Swaziland</option>
+<option value="213">Sweden</option>
+<option value="214">Switzerland</option>
+<option value="215">Syrian Arab Republic</option>
+<option value="216">Taiwan</option>
+<option value="217">Tajikistan</option>
+<option value="218">Tanzania, United Republic of</option>
+<option value="219">Thailand</option>
+<option value="220">Timor-Leste</option>
+<option value="221">Togo</option>
+<option value="222">Tokelau</option>
+<option value="223">Tonga</option>
+<option value="224">Trinidad and Tobago</option>
+<option value="225">Tunisia</option>
+<option value="226">Turkey</option>
+<option value="227">Turkmenistan</option>
+<option value="228">Turks and Caicos Islands</option>
+<option value="229">Tuvalu</option>
+<option value="230">Uganda</option>
+<option value="231">Ukraine</option>
+<option value="232">United Arab Emirates</option>
+<option value="1">United Kingdom</option>
+<option value="234">United States</option>
+<option value="235">United States Minor Outlying Islands</option>
+<option value="236">Uruguay</option>
+<option value="237">Uzbekistan</option>
+<option value="238">Vanuatu</option>
+<option value="239">Venezuela, Bolivarian Republic of</option>
+<option value="240">Vietnam</option>
+<option value="241">Virgin Islands, British</option>
+<option value="242">Virgin Islands, U.S.</option>
+<option value="243">Wallis and Futuna</option>
+<option value="244">Western Sahara</option>
+<option value="245">Yemen</option>
+<option value="246">Zambia</option>
+<option value="247">Zimbabwe</option>
+                                        </select>
+                                    </span></p>
+                                    <input type="hidden" name="foo2" id="location_country" value="" />
+                                                    </div>
+                        
+                        <div class="margin-bottom">
+                            <p><label>Location:</label></p>
+                            <div id="location-input">
+                                <input type="text" class="bord" title="(e.g. post/zipcode, city)" data-title="(e.g. post/zipcode, city)" name="location" id="location" />
+                                                            </div>
+                        </div>
+                        
+                        <input type="hidden" name="location_range" value="200" />                       
+                       
+                        <div class="margin-bottom">
+                                                            <p><label>Job Category:</label></p>
+                                <p><span class="bord">
+                                    <select name="category" id="category">
+                                        <option value="">Please select</option>
+                                                                                	<option value="19" >Accounting/Finance/Insurance/Commercial</option>
+                                                                                	<option value="3" >Administrative/Clerical</option>
+                                                                                	<option value="6" >Ambulance Driver/PTS Front Line</option>
+                                                                                	<option value="38" >Border Patrol / Protection</option>
+                                                                                	<option value="16" >Business Services/Marketing</option>
+                                                                                	<option value="21" >Cash Operations</option>
+                                                                                	<option value="5" >Catering/Food</option>
+                                                                                	<option value="22" >Children's Services</option>
+                                                                                	<option value="2" >Cleaning/Portering</option>
+                                                                                	<option value="23" >Custodial</option>
+                                                                                	<option value="8" >Customer Service/Helpdesk</option>
+                                                                                	<option value="10" >Education/Training</option>
+                                                                                	<option value="11" >Engineering</option>
+                                                                                	<option value="24" >Events Stewarding and Security</option>
+                                                                                	<option value="1" >Facilities Management</option>
+                                                                                	<option value="52" >Guarding</option>
+                                                                                	<option value="25" >Healthcare</option>
+                                                                                	<option value="12" >Human Resources/Health and Safety</option>
+                                                                                	<option value="4" >Installation/Maintenance/Repair</option>
+                                                                                	<option value="41" >Investigator</option>
+                                                                                	<option value="14" >IT/Software Development</option>
+                                                                                	<option value="26" >Legal</option>
+                                                                                	<option value="27" >Line Management</option>
+                                                                                	<option value="28" >Marketing, Advertising, PR</option>
+                                                                                	<option value="18" >Medical/Health/Nurses/Doctors/Forensic/Decon</option>
+                                                                                	<option value="29" >Miscellaneous</option>
+                                                                                	<option value="39" >Parking and Transportation Services Management</option>
+                                                                                	<option value="37" >Police Investigators</option>
+                                                                                	<option value="40" >Prisoner Transport/Escort</option>
+                                                                                	<option value="17" >Project/Program Management</option>
+                                                                                	<option value="7" >PTS Management</option>
+                                                                                	<option value="30" >Risk</option>
+                                                                                	<option value="53" >Road inspection</option>
+                                                                                	<option value="13" >Sales/Retail/Business Development</option>
+                                                                                	<option value="15" >Science/Energy/Environment</option>
+                                                                                	<option value="31" >Secretarial and Administration</option>
+                                                                                	<option value="9" >Security/Protective Services</option>
+                                                                                	<option value="32" >Strategic Management</option>
+                                                                                	<option value="33" >Technical Support</option>
+                                                                                	<option value="34" >Telecommunications</option>
+                                                                                	<option value="35" >Utility Services</option>
+                                                                                	<option value="36" >Welfare to Work</option>
+                                                                                	<option value="20" >Other</option>
+                                                                                                    
+                                    </select>
+                                </span></p>
+                                                    </div>
+                        
+                        <div class="margin-bottom">
+                                                            <p><label>Contract Type:</label></p>
+                                <p>
+                                        <span class="bord"><select name="job_type" id="job_type">
+                                            <option value="">Please select</option>
+                                            <option value="1" >Full Time</option>
+                                            <option value="3" >Part Time</option>
+                                            <option value="4" >Temporary Casual</option>
+                                        </select></span>
+                                </p>
+                                                    </div>
+
+                        <input type="hidden" name="location_geo" value="" />
+                        
+                        <p><button type="submit" class="SearchBut"><span></span> <strong>Search Jobs</strong></button></p>                  
+                                         
+                    </div>
+
+						                </form>
+<div class="box">
+			<p><a href="https://careers.g4s.com/search-job.php?showall=y" class="SearchBut"><span></span> Show All Jobs</a></p>
+</div>
+
+
+
+<!--  -->
+                <div class="box" id="LatestJobs">
+                        <h2><span></span>Latest jobs with G4S</h2>
+                        <ul class="list">
+<li><a rev="83801" href="https://careers.g4s.com/jobs/Armed-Custom-Protection-Officer-Plymouth-MN_83801/"> Armed Custom Protection Officer (Plymouth, MN)</a><br /><b>Salary: </b>$14.00 - $14.00<br /><b>Location:</b>  Plymouth, Minnesota<br /></li><li><a rev="83800" href="https://careers.g4s.com/jobs/Site-Security-Supervisor-Philadelphia-PA_83800/"> Site Security Supervisor (Philadelphia, PA)</a><br /><b>Salary: </b>17.00-17.00<br /><b>Location:</b> Philadelphia, Pennsylvania <br /></li><li><a rev="83798" href="https://careers.g4s.com/jobs/Armed-Custom-Protection-Officer-Douglas-AZ_83798/"> Armed Custom Protection Officer (Douglas, AZ)</a><br /><b>Salary: </b>$12.62 - $12.62<br /><b>Location:</b>  Douglas, Arizona<br /></li><li><a rev="83797" href="https://careers.g4s.com/jobs/Custom-Protection-Security-Officer-Guard-Shreveport-LA_83797/">Custom Protection Security Officer / Guard (Shreveport, LA)</a><br /><b>Salary: </b>$13.00 - $13.00<br /><b>Location:</b>  Shreveport, Louisiana<br /></li><li><a rev="83795" href="https://careers.g4s.com/jobs/Communications-Specialist-Dallas-TX_83795/"> Communications Specialist (Dallas, TX)</a><br /><b>Salary: </b>$14.91 - $14.91<br /><b>Location:</b>  Dallas, TX <br /></li><li><a rev="83794" href="https://careers.g4s.com/jobs/Armed-Bank-Protection-Officer-Flex-FT-Albany-NY_83794/"> Armed Bank Protection Officer Flex FT (Albany, NY)</a><br /><b>Salary: </b>$17.00 - $17.00<br /><b>Location:</b>  Albany, New York<br /></li>                        </ul>
+                         <form method="post" action="https://careers.g4s.com/search-job.php?latest=y">
+                         <p><input type="hidden" id="job_id_b" name="job_id" /><input type="hidden" id="find_type" name="find_type" />
+                         <button type="submit" class="SearchBut"><span></span> <strong>Show Latest Jobs</strong></button></p>
+                         </form>
+                </div>
+
+<!-- end sidebar -->
+
+<script>
+	jQuery(document).ready(function() {
+		jQuery("input[name=foo2]").val(jQuery("#location_country").find("option:selected").text());
+		jQuery("select#location_country").change(function() {
+			jQuery("input[name=foo2]").val(jQuery(this).find("option:selected").text());
+		});
+	});
+</script>
+	</div>
+	<div class="content fl_right">
+		<div class="post">
+
+			<ul class="indVideoBoxImg fl_right">
+				<li><a href="https://careers.g4s.com/meet-our-people/operational-employees/"><img src="https://careers.g4s.com/wp-content/uploads/2010/10/operational-employees1.jpg" width="157"><b>Operational employees</b></a></li><li><a href="https://careers.g4s.com/meet-our-people/management-and-support/"><img src="https://careers.g4s.com/wp-content/uploads/2010/10/management-support1.jpg" width="157"><b>Management & support</b></a></li><li><a href="https://careers.g4s.com/meet-our-people/stategic-management/"><img src="https://careers.g4s.com/wp-content/uploads/2010/10/strategic-management1.jpg" width="157"><b>Strategic management</b></a></li>			</ul>
+
+			<h2 id='result-title' class="fl_left pageTitle" style="width:565px">Job Search > Results</h2>
+				<div class="success-list">
+<p id="result-msg">
+	Your search for 
+    <b></b> 
+	jobs 
+     
+	returned 
+    <b>1820</b> 
+	unique jobs / roles	</p>
+<div class="FindNav FindNavTop right" style="display: block;">
+<div class="fl_left"> </div>Results per page: <select class="resultsPerPage" name="resultsperpage">
+<option value='10'>10</option>
+<option value='20'>20</option>
+<option value='30'>30</option>
+
+</select></div>
+
+<div class="success-list-1">
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Fire-Marshal-PT-Kokomo-IN_83603/" rev="83603" class="ViewFullDetailsLink"> Fire Marshal P/T (Kokomo, IN)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83603&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83603&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $13.50 - $13.50 <br />
+                                        <b>Location: </b>   Kokomo, Indiana<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Part Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Fire-Marshal-PT-Kokomo-IN_83603/" rev="83603" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Security-Officer-Security-Guard-FT-PT-Green-Bay-WI_83601/" rev="83601" class="ViewFullDetailsLink"> Security Officer / Security Guard - FT & PT (Green Bay, WI)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83601&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83601&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $10.25 - $14.00 <br />
+                                        <b>Location: </b>   Green Bay, Wisconsin<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Security-Officer-Security-Guard-FT-PT-Green-Bay-WI_83601/" rev="83601" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/HCP-Nurse-or-Paramedic-Great-Yarmouth_83599/" rev="83599" class="ViewFullDetailsLink">HCP Nurse or Paramedic: Great Yarmouth</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83599&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83599&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> £16,500 per annum <br />
+                                        <b>Location: </b>  <br />
+					<b>Country:</b>United Kingdom<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 29, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/HCP-Nurse-or-Paramedic-Great-Yarmouth_83599/" rev="83599" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/HCP-Nurse-or-Paramedic-Kings-Lynn_83598/" rev="83598" class="ViewFullDetailsLink">HCP Nurse or Paramedic: Kings Lynn</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83598&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83598&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> £16,500 per annum <br />
+                                        <b>Location: </b>  <br />
+					<b>Country:</b>United Kingdom<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 29, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/HCP-Nurse-or-Paramedic-Kings-Lynn_83598/" rev="83598" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Security-Officer-Lawton-OK_83597/" rev="83597" class="ViewFullDetailsLink"> Security Officer (Lawton, OK)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83597&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83597&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $11.00 - $11.00 <br />
+                                        <b>Location: </b>  Lawton, Oklahoma<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Security-Officer-Lawton-OK_83597/" rev="83597" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Custom-Protection-Officer-Albuquerque-NM_83596/" rev="83596" class="ViewFullDetailsLink"> Custom Protection Officer (Albuquerque, NM)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83596&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83596&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $11.25 - $12.50 <br />
+                                        <b>Location: </b>   Albuquerque, New Mexico<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Custom-Protection-Officer-Albuquerque-NM_83596/" rev="83596" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Upscale-Security-Officer-Security-Guard-Madisonville-OH_83594/" rev="83594" class="ViewFullDetailsLink"> Upscale Security Officer / Security Guard (Madisonville, OH)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83594&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83594&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $11.00 - $11.00 <br />
+                                        <b>Location: </b>   Madisonville, Ohio<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Upscale-Security-Officer-Security-Guard-Madisonville-OH_83594/" rev="83594" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Safety-Specialist-Louisville-KY_83593/" rev="83593" class="ViewFullDetailsLink"> Safety Specialist (Louisville, KY)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83593&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83593&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $55000.00 - $55000.00 <br />
+                                        <b>Location: </b>   Louisville, Kentucky<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Safety-Specialist-Louisville-KY_83593/" rev="83593" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Upscale-Flex-Security-Officer-New-York-NY_83592/" rev="83592" class="ViewFullDetailsLink"> Upscale Flex Security Officer (New York, NY)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83592&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83592&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $18.04 - $18.04 <br />
+                                        <b>Location: </b>   New York, NY<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Upscale-Flex-Security-Officer-New-York-NY_83592/" rev="83592" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+		<div class="FindBox">
+			<div class="FindBoxTop"><h2><a href="jobs/Security-Officer-Security-Guard-Waterford-OH_83591/" rev="83591" class="ViewFullDetailsLink"> Security Officer / Security Guard (Waterford, OH)</a></h2>
+				<span class="fl_right">
+					<a class="AddToWatchlist" rev="AccessAccount" href="https://community.g4s.com/members/?w=83591&cookieState=off&lang=en">Add to watchlist</a><br />
+					<a class="ApplyJob" rev="AccessAccount" href="https://community.g4s.com/members/?j=83591&cookieState=off&lang=en">Apply</a>
+				</span>
+				<div class="FindBoxTopL fl_left">
+                						<b>Salary: </b> $10.30 - $10.30 <br />
+                                        <b>Location: </b>  Waterford, Ohio<br />
+					<b>Country:</b>United States<br />
+										
+				<b>Contract Type: </b>Full Time<br /><b>Closing Date: </b>March 1, 2017<br />
+				</div>
+				<div class="both"></div>
+				<div class="FindBoxTopB"> </div>
+				<p class="right">
+					<a href="jobs/Security-Officer-Security-Guard-Waterford-OH_83591/" rev="83591" class="ViewFullDetailsLink">View full details</a>
+				</p>
+			</div>
+		</div>
+		<br />
+</div>
+
+
+
+<div class="FindNav FindNavBottom right">Page 14 of 182 <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=1" rev="1" class="aNavBg">&laquo;</a><a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=13" rev="13" class="aNavBg">&lsaquo;</a> ...     <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=11" rev="11">11</a>  
+<a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=12" rev="12">12</a>  <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=13" rev="13">13</a>  <a href="#" rev="" class="active">14</a> 
+<a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=15" rev="15">15</a>  <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=16" rev="16">16</a>  <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=17" rev="17">17</a>       ... <a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=15" rev="15" class="aNavBg">&rsaquo;</a><a href="search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=182" rev="182" class="aNavBg">&raquo;</a> Results per page: <select class="resultsPerPage">
+<option value=10>10</option>
+<option value=20>20</option>
+<option value=30>30</option>
+ </select></div> 
+
+</div>
+			<div class="both"></div>
+			<div class="success-item"></div>
+
+
+
+			<form method="post" action="#" id="FindForm_1">
+				<input type="hidden" id="job_id_1" value="" name="job_id" />
+				<input type="hidden" id="location_1" value="" name="location" />
+				<input type="hidden" value="" name="keywords" id="keywords_1"/>
+				<input type="hidden" id="location_range_1" value="" name="location_range" />
+				<input type="hidden" id="location_country" value="" name="location_country" />
+				<input type="hidden" id="category_1" value="" name="category" />
+				<input type="hidden" id="job_type_1" value="" name="job_type" />
+				<input type="hidden" id="salary_frequency_1" value="" name="salary_frequency" />
+				<input type="hidden" id="salary_range_from_1" value="" name="salary_range_from" />
+				<input type="hidden" id="salary_range_to_1" value="" name="salary_range_to" />
+				<input type="hidden" id="SortBy" name="sortBy" value="3" />
+				<input type="hidden" id="num_1" name="num" />
+				<input type="hidden" id="pageNum_1" value="1" name="pageNum" />
+			</form>
+
+
+			<script type="text/javascript">
+			<!--
+			/**/
+
+			/**/
+				$(document).ready(function() 
+				{	
+					$('.SignUpBox').hide();
+					
+										$('.resultsPerPage').change(function()
+					{
+						amount = $(this).val();
+						window.location.href ='search-job.php?showall=y&showDistance=N&location_range=&SortBy=3&pageNum=&num=' + amount; 
+					});
+					$('input[name="SortBy"]').change(function()
+					{
+						window.location.href ='search-job.php?showall=y&showDistance=N&location_range=&pageNum=1&SortBy=' + $(this).val();
+					});
+				});
+			-->
+
+			</script>
+		</div>
+		<div class="both"></div>
+	</div>
+	<div class="both"></div>
+</div></div>
+
+
+</div>
+<div class="footer">
+	<div class="footer_left">
+       	<p>
+							<a href="/terms-and-conditions/">Terms & Conditions</a>	
+							<a href="/privacy-policy/">Privacy Policy</a> 
+					</p>
+     
+		<p class="copyright">G4S Copyright 2017 All Rights Reserved.</p>
+	</div>
+	
+	<div class="footer_mid">
+		<a href=" http://norauk.com/archives/2011-2/" id="nora" target="_blank"></a>
+<a href="http://www.recruiterawards.co.uk/" target="_blank"><img src="http://careers.g4s.com/wp-content/uploads/2012/08/Recruiter-Awards.jpg" alt="" title="Recruiter Awards" width="141" height="66" class="aligncenter size-full wp-image-1576" /></a>	</div>
+	
+	
+	<div id="FindUs">
+		<a href="http://www.facebook.com/g4s" target="_blank" class="img_f"></a>		
+<a href="http://twitter.com/#!/g4scareers" class="img_t" target="_blank"></a>		
+<a href="http://www.linkedin.com/groups?mostPopular=&amp;gid=3263334" class="img_i" target="_blank"></a>		
+<a href="http://www.youtube.com/user/G4SCareers?feature=mhum#p/u" class="img_y" target="_blank"></a>		
+<a href="/feed" target="_blank" class="img_feed"></a>	</div> 
+	
+	<div class="both"></div>
+	
+		<ul class="footer_links"><li><a href="http://careers.g4s.com">Global Careers</a></li>
+	<li><a href="http://ukjobs.g4s.com">UK Jobs</a></li>
+	<li><a href="http://eventsjobsuk.g4s.com">Security Jobs for UK Events</a></li>
+	<li><a href="http://usajobs.g4s.com">Security Jobs in the USA</a></li>
+	<li><a href="http://canadajobs.g4s.com">Security Jobs in Canada</a></li>
+	<li><a href="http://greaterchinajobs.g4s.com/zh-hans/">简体中文网页</a></li>
+        <li><a href="http://greaterchinajobs.g4s.com">繁體中文網頁</a></li>
+	<li style="white-space: nowrap;"><a href="http://avoda.g4s.co.il/">עבודה וקריירה בישראל</a></li>
+        <li style="white-space: nowrap;"><a href="http://amejobs.g4s.com">Asia and Middle East Career Opportunities</a></li>
+	<li style="white-space: nowrap;"><a href="http://africajobs.g4s.com">Security jobs in Africa</a></li>
+        <li style="white-space: nowrap;"><a href="http://africajobs.g4s.com/fr/">Emplois dans la sécurité en Afrique</a></li>
+	<li style="white-space: nowrap;"><a href="http://jobsat.g4s.com">Stellenangebote bei G4S Österreich</a></li>
+<li style="white-space: nowrap;"><a href="http://empleos.g4s.com/">Empleos y carreras con G4S</a></li>
+<li style="white-space: nowrap;"><a href="http://technologycareers.g4s.com/">Technology careers within G4S</a></li></ul>
+		
+	</div>
+    
+     <p class="sitemap">
+	             <a href="/site-map/">Sitemap</a>
+             </p>
+</div>
+
+<script type='text/javascript' src='https://careers.g4s.com/wp-includes/js/wp-embed.min.js?ver=4.5.2'></script>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+/*	$('.main .fl_right.post-content').css('padding-bottom', '70px');
+	$('.main .content.fl_right').css('padding-bottom','70px');
+	$('.main .fl_right.post-content').css('min-height','auto');
+	$('.main .fl_right.post-content').height('auto');
+	$(".logo").removeClass("newWin").attr("target","_self"); */
+	$('.content .TagCloud a').css('font-size', '12px');
+});
+//-->
+</script>
+
+			<div id="ididitallforthecookie" data-confirm="Warning, turning off cookies may result in certain features not working, including not being able to log in.">
+        	<h3>Career Centre Cookies</h3>
+        	<p>The Career Centre stores essential cookies.  It also stores cookies to improve your experience.   Although you may turn cookies off, this may affect your enjoyment of the site.  To see more information on how we use cookies <a href="/cookies">please click here</a>.  If you continue to browse our site without turning cookies off we will assume you have consented.            </p>
+            <div class='action'>
+                <input type="button" value="Turn cookies on" class="btn btn-primary youCanHandleTheCookie" />
+                &nbsp;&nbsp;
+                <input type="button" value="Turn cookies off" class="btn youCantHandleTheCookie" />	
+            </div>
+        </div>
+        
+<!-- GA -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1226240-16']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End GA -->
+
+<!-- TribePad Analytics Code -->
+<script type="text/javascript" >
+(function() {
+    var url = encodeURIComponent(document.referrer);
+    var tpa = document.createElement('img'); tpa.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'community.g4s.com/members/modules/tracking/tracker.php?r='+(new Date()).getTime()+'&u='+url;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tpa, s);
+  })();
+</script>
+<!-- End TribePad Analytics Code -->
+
+
+<!-- Recruitics Analytics -->
+<script type="text/javascript">
+ (function (w, d, t, u, n, e, p) {
+   w[n] = w[n] || function () {
+     (w[n].e = w[n].e || []).push(Array.prototype.slice.call(arguments));
+   }, w[n].t = 1 * new Date();
+   e = d.createElement(t); e.async = 1; e.src = u;
+   p = d.getElementsByTagName(t)[0]; p.parentNode.insertBefore(e, p);
+ })(window, document, 'script', '//analytics.recruitics.com/analytics.js', 'recruitics');
+ recruitics('create', 'RX-000743-2');
+</script>
+
+<script type="text/javascript">
+jQuery(function ($) {
+  var jobkey = '_RCRTX_JOB';
+  var emailkey = '_RCRTX_EMAIL';
+  var domainpath = '; domain=g4s.com; path=/';
+  var email = decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + emailkey + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1"));
+  document.cookie = jobkey + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT' + domainpath;
+
+  var match = location.pathname.match(/\/jobs\/.*?(\d*)\/?$/i), jobid = '';
+  if (match) {
+    jobid = match[1];
+  }
+  if (jobid) {
+    recruitics('jobview', jobid);
+    $('[rev="AccessAccount"]').bind('mousedown', function () {
+      if (email) {
+        var nvp = email === 'social' ? {} : { $email: email };
+        recruitics('apply', jobid, nvp);
+      } else {
+        document.cookie = jobkey + '=' + encodeURIComponent(jobid) + domainpath;
+      }
+    });
+  } else {
+    recruitics('pageview');
+  }
+});
+</script>
+
+<script type="text/javascript">
+	/* COOKIE MONSTER
+	---------------------- 	*/
+	if ($.cookie('youWantTheCookieShown')==null) {
+		$.cookie('youWantTheCookieShown', window.location.href, {expires: 365, path: '/'  });
+	}
+	
+	if($.cookie('youWantTheCookieShown')!=null && $.cookie('youWantTheCookieShown') != window.location.href && $.cookie("youWantTheCookie")==null) {
+		$("#ididitallforthecookie").hide();
+		$.cookie('youWantTheCookie', 'yes', {expires: 365, path: '/'  });
+	}
+	
+	$(".youCanHandleTheCookie").live("click", function(){
+		$.cookie('youWantTheCookie', 'yes', {expires: 365, path: '/'  });
+		$("#ididitallforthecookie").hide();
+		if($(".cookie-status").length==1) $(".cookie-status").html("Cookies are ON");
+		toggleCookieBtn($(this));
+		addCookieFunctionality();
+	});
+	
+	$(".youCantHandleTheCookie").live("click", function(){
+		if($("#ididitallforthecookie, .cookie-status").attr("data-confirm")=="") {
+			var answer = true;	
+		}
+		else {
+			var answer = confirm($("#ididitallforthecookie, .cookie-status").attr("data-confirm"));
+		}
+		if(answer) {
+			$.cookie('youWantTheCookie', 'no', { expires: 365, path: '/' });
+			if($(".cookie-status").length==1) $(".cookie-status").html("Cookies are OFF");
+			$("#ididitallforthecookie").hide();
+			toggleCookieBtn($(this));
+			location.reload(true);
+
+		}
+	});
+
+	if ($.cookie('youWantTheCookie') != null && $.cookie('youWantTheCookie') == "yes") {
+		addCookieFunctionality();
+	}
+	
+	function toggleCookieBtn(btn) {
+		if(btn.hasClass("toggle")) {
+			if(btn.hasClass("youCanHandleTheCookie")) btn.addClass("youCantHandleTheCookie").removeClass("youCanHandleTheCookie  btn-primary").text("Turn cookies OFF");	
+			else if(btn.hasClass("youCantHandleTheCookie")) btn.addClass("youCanHandleTheCookie btn-primary").removeClass("youCantHandleTheCookie").text("Turn cookies ON");	
+		}
+	}
+
+	function addCookieFunctionality() { }
+</script>
+
+<!-- tp code2 -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//tracking.tribepad.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 5]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//tracking.tribepad.com/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+<!-- End tp2 Code -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4415f72e76","applicationID":"14789971","transactionName":"Z1ADY0UCC0cHVBJeV14aNEVeTBJES1QJWUxVWxUYQwsAWQNESVAMQxoLWFUQAFUUVA4ZSFhF","queueTime":0,"applicationTime":330,"atts":"SxcAFQ0YGEk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
