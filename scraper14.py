@@ -7,4 +7,4 @@ for td in tds:
     print td.text_content()                # just the text inside the HTML tag
 for td in tds:
      record = { "td" : td.text_content() } # column name and value
-     scraperwiki.sql.save(["td"], record) # save the records one by one
+     scraperwiki.sqlite.save(["td"], record) # save the records one by one
