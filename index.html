@@ -1,9 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- above lines taken from https://getbootstrap.com/getting-started/ -->
   <title>Scraping for Everyone: example webpages
   </title>
-</head>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      
+  </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+
+
+
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
 <h1>Sample pages for the book Scraping for Everyone</h1>
 <p>
 In the book <em>Scraping for Everyone</em> (first published as <a href="https://leanpub.com/scrapingforjournalists/"><em>Scraping for Journalists</em></a>) I use a number of examples of live webpages that you can use scraping techniques with.
@@ -14,6 +45,13 @@ Over time, many of these webpages may either change their design or their struct
 <p>
 If that happens, you can use the samples listed below to test that code and see it working. Note that I have only used the raw HTML, so these webpages do not include any images or other resources. However, the scrapers are only concerned with that raw HTML.
 </p>
+</div>
+</div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
 <p>
   <h2>Scraper 3: Looking for structure in HTML</h2>
 
@@ -25,6 +63,8 @@ If that happens, you can use the samples listed below to test that code and see 
   </li>
 
   </ul>
+</div>
+  <div class="col-md-4">
 <h2>Scraper 6: Structure in URLs - using Open
 Refine</h2>
 
@@ -38,6 +78,9 @@ You can find copies of the webpages mentioned in the chapter here:
 <a href="webpages/ch7hospital1.htm">Hospital detail page</a>
 </li>
 </ul>
+</div>
+
+  <div class="col-md-4">
 
 <h2>Scraper 7: Scraping multiple pages with
 ‘next’ links using Outwit Hub</h2>
@@ -60,7 +103,10 @@ search page for written questions and answers</a>
 </li>
 
 </ul>
-
+</div>
+</div>
+<div class="row">
+  <div class="col-md-4">
 <h2>Scraper 8: Poorly formatted webpages -
 solving problems with OutWit</h2>
 
@@ -71,7 +117,8 @@ You can find copies of the webpages mentioned in the chapter here:
 <a href="webpages/ch9consortium.htm">Pathfinder clinical commissioning groups by Strategic Health Authority clusters</a>
 </li>
 </ul>
-
+</div>
+  <div class="col-md-4">
 <h2>Scraper 11: Scraping hidden and ‘invisible’ data on a webpage: icons and ‘reveals’</h2>
 
 You can find copies of the webpages mentioned in the chapter here:
@@ -85,6 +132,8 @@ You can find copies of the webpages mentioned in the chapter here:
 </li>
   </ul>
 
+  </div>
+    <div class="col-md-4">
 <h2>Scraper 12: Introduction to Python</h2>
 
 You can find copies of the webpages mentioned in the chapter here:
@@ -94,6 +143,10 @@ You can find copies of the webpages mentioned in the chapter here:
 </li>
   </ul>
 
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
   <h2>Scraper 17: Scraping a list of pages</h2>
 
 For this chapter I've created five pages, each of which uses the ID code of a school. They are:
@@ -114,6 +167,9 @@ For this chapter I've created five pages, each of which uses the ID code of a sc
 <a href="https://paulbradshaw.github.io/scraping-for-everyone/scottishschools/iSchoolid_5244439.html">Aberdeen Grammar School</a>
 </li>
   </ul>
+
+  </div>
+    <div class="col-md-4">
   <h2>Scraper 20: Automating database searches (forms)</h2>
 
 You can find copies of the webpages and scrapers mentioned in the chapter here:
@@ -130,6 +186,8 @@ You can find copies of the webpages and scrapers mentioned in the chapter here:
 </li>
   </ul>
 
+  </div>
+    <div class="col-md-4">
   <h2>Scraper 22: Storing the results of a search</h2>
 
   You can find copies of the scraper mentioned in the chapter here:
@@ -139,6 +197,11 @@ You can find copies of the webpages and scrapers mentioned in the chapter here:
   </li>
 
   </ul>
+
+  </div>
+</div>
+  <div class="row">
+    <div class="col-md-4">
   <h2>Scraper 26: Scraping CSV files</h2>
 
   You can find copies of the data and scrapers mentioned in the chapter here:
@@ -169,5 +232,7 @@ You can find copies of the webpages and scrapers mentioned in the chapter here:
   <a href="https://morph.io/paulbradshaw/Multi_CSV_scraper">Scraper code: scraping multiple CSVs including column headings</a>
   </li>
   </ul>
+</div>
+</div>
 </body>
 </html>
